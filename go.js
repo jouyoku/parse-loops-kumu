@@ -55,20 +55,26 @@ for (let z = 0; z < kumuLength; z++) {
 
         let nodes = [];
         let count = 0;
-        for (let j = 0; j < result.length; j++) {
-          if(kumu[result[j]][3] == '-') {
+        for (let k = 0; k < result.length; k++) {
+          if(kumu[result[k]][3] == '-') {
             count++;
           }
-          nodes.push(kumu[result[j]][0]);
+          nodes.push(kumu[result[k]][0]);
         }
         let type = 'R';
         if((count % 2) == 1) {
           type = 'B'
         }
 
+        let connections = [];
+        for(let y=0;y<result.length;y++) {
+          connections.push(kumu[result[y]]);
+        }
+
         let loop = [];
         loop.push(type);
         loop.push(nodes);
+        loop.push(connections);
         loops.push(loop);
       }
     }
@@ -101,4 +107,4 @@ for(let i=0;i<loops.length;i++) {
   }
 }
 
-console.log(final);
+console.log(JSON.stringify(final));
