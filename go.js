@@ -107,4 +107,4 @@ for(let i=0;i<loops.length;i++) {
   }
 }
 
-console.log(JSON.stringify(final));
+console.log(JSON.stringify(final), final, final.length);
