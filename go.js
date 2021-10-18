@@ -15,75 +15,44 @@ function findNextConnections(index) {
   return list;
 }
 
-function getLoop(trace, current) {
-  if (kumu[current][1] == kumu[trace[0]][0]) {
-    return [current];
-  }
-
-  if (trace.includes(current)) {
-    return [];
-  }
-
-  let next = findNextConnections(current);
-  if (next.length == 0) {
-    return [];
-  }
-
-  for (let i = 0; i < next.length; i++) {
-    let tmp = [...trace];
-    tmp.push(current)
-    let result = getLoop(tmp, next[i]);
-    if (result.length > 0) {
-      result.push(current);
-    }
-    return result;
-  }
+let nexts = [];
+for (let i = 0; i < kumu.length; i++) {
+  let next = findNextConnections(i);
+  nexts.push(next);
 }
+
+//console.log(JSON.stringify(nexts));
 
 let loops = [];
-let kumuLength = kumu.length;
-for (let z = 0; z < kumuLength; z++) {
-  for (let j = 0; j < kumu.length; j++) {
-    let next = findNextConnections(j);
 
-    for (let i = 0; i < next.length; i++) {
-      let tmp = [];
-      tmp.push(j);
-      let result = getLoop(tmp, next[i]);
-      if (result.length > 0) {
-        result.push(j);
-
-        let nodes = [];
-        let count = 0;
-        for (let k = 0; k < result.length; k++) {
-          if(kumu[result[k]][3] == '-') {
-            count++;
-          }
-          nodes.push(kumu[result[k]][0]);
-        }
-        let type = 'R';
-        if((count % 2) == 1) {
-          type = 'B'
-        }
-
-        let connections = [];
-        for(let y=0;y<result.length;y++) {
-          connections.push(kumu[result[y]]);
-        }
-
-        let loop = [];
-        loop.push(type);
-        loop.push(nodes);
-        loop.push(connections);
-        loops.push(loop);
-      }
+function forward(trace0) {
+  let next = nexts[trace0[trace0.length - 1]];
+  for(let i=0;i<next.length;i++) {
+    let trace = [];
+    for(let j=0;j<trace0.length;j++) {
+      trace.push(trace0[j]);
     }
-
+    let connection = next[i];
+    if(connection == trace[0]) {  //found
+      //trace.push(connection);
+      loops.push(trace);
+      continue;
+    }
+    if(trace.includes(connection)) {
+      continue;
+    }
+    trace.push(connection);
+    forward(trace);
   }
-
-  kumu.unshift(kumu.pop());
-
 }
+
+for (let i=0;i<nexts.length; i++) {
+  let tmp = [];
+  tmp.push(i);
+  let trace = forward(tmp);
+}
+
+//console.log(JSON.stringify(loops), loops, loops.length);
 
 const equals = (a, b) =>
   a.length === b.length &&
@@ -91,12 +60,12 @@ const equals = (a, b) =>
 
 let final = [];
 for(let i=0;i<loops.length;i++) {
-  let loop = loops[i][1];
+  let loop = loops[i];
   let same = false;
   for(let j=0;j<final.length;j++) {
     let length = loop.length;
     for(let k=0;k<length;k++) {
-      if(equals(final[j][1], loop)) {
+      if(equals(final[j], loop)) {
         same = true;
       }
       loop.unshift(loop.pop());
@@ -107,4 +76,32 @@ for(let i=0;i<loops.length;i++) {
   }
 }
 
-console.log(JSON.stringify(final), final, final.length);
+final.sort(function(a, b) {
+  return a.length - b.length;
+});
+
+//console.log(JSON.stringify(final), final, final.length);
+
+let final2 = [];
+for(let i=0;i<final.length;i++) {
+  let loop = final[i];
+  let tmp = [];
+  let minus = 0;
+  for(let j=0;j<loop.length;j++) {
+    tmp.push(kumu[loop[j]][0]);
+    if(kumu[loop[j]][3] == '-') {
+      minus++;
+    }
+  }
+  let type = 'R';
+  if((minus % 2) == 1) {
+    type = 'B';
+  }
+  let row = [];
+  row.push(type);
+  row.push(tmp.length);
+  row.push(tmp);
+  final2.push(row);
+}
+
+console.log(JSON.stringify(final2), final2.length);
