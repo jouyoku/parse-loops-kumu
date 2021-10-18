@@ -87,21 +87,61 @@ for(let i=0;i<final.length;i++) {
   let loop = final[i];
   let tmp = [];
   let minus = 0;
+  let occured = false;
   for(let j=0;j<loop.length;j++) {
+    for(let k=0;k<tmp.length;k++) {
+      if(tmp[k] == kumu[loop[j]][0]) {
+        occured = true;
+        break;
+      }
+    }
+    if(occured) {
+      break;
+    }
     tmp.push(kumu[loop[j]][0]);
     if(kumu[loop[j]][3] == '-') {
       minus++;
     }
+  }
+  if(occured) {
+    continue;
+  }
+  if(tmp.length < 3) {
+    continue;
   }
   let type = 'R';
   if((minus % 2) == 1) {
     type = 'B';
   }
   let row = [];
-  row.push(type);
+  row.push(type + (final2.length + 1));
   row.push(tmp.length);
   row.push(tmp);
   final2.push(row);
 }
 
 console.log(JSON.stringify(final2), final2.length);
+
+let tagNode = {};
+let tagTie = {};
+for(let i=0;i<final2.length;i++) {
+  let nodes = final2[i][2];
+  for(let j=0;j<nodes.length;j++) {
+    let node = nodes[j];
+    let tie = node + "-" + nodes[(j + 1) % nodes.length];
+    if(!tagNode.hasOwnProperty(node)) {
+      tagNode[node] = 'lp' + (i+1);
+    } else {
+      tagNode[node] = tagNode[node] +' | lp' + (i+1);
+    }
+
+    if(!tagTie.hasOwnProperty(tie)) {
+      tagTie[tie] = 'lp' + (i+1);
+    } else {
+      tagTie[tie] = tagTie[tie] +' | lp' + (i+1);
+    }
+  }
+}
+
+console.log(JSON.stringify(tagNode), Object.keys(tagNode).length);
+console.log(JSON.stringify(tagTie), Object.keys(tagTie).length);
