@@ -1,0 +1,6916 @@
+{
+  "version": 1,
+  "name": "TFRD GTA",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-yrkaYozG",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-vMA9Fm4J",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Flow",
+        "+",
+        "-",
+        "Dot"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-UbtItYif",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-fArn5NtX",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Stock",
+        "Flow",
+        "Variable",
+        "Source",
+        "Sink",
+        "Person",
+        "Organization",
+        "Actor TFRD",
+        "Actor Hospital",
+        "Actor GTA",
+        "Actor Patient",
+        "Actor Lab",
+        "Actor Vendor",
+        "Actor Gov"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-L8z50mjk",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-BkmBfEzh",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-tlDprDUL",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-0Pc2KSoh",
+      "attributes": {
+        "label": "新的罕病療法"
+      }
+    },
+    {
+      "_id": "elem-0QwZZ6mw",
+      "attributes": {
+        "label": "檢驗試劑耗材採購量"
+      }
+    },
+    {
+      "_id": "elem-0yfv5OBU",
+      "attributes": {
+        "label": "國外送檢病患"
+      }
+    },
+    {
+      "_id": "elem-1Ah51Wwp",
+      "attributes": {
+        "label": "V1  藥廠",
+        "element type": "Actor Vendor",
+        "tags": [
+          "core"
+        ]
+      }
+    },
+    {
+      "_id": "elem-1cN92die",
+      "attributes": {
+        "label": "方案補助的檢驗項目數",
+        "element type": "Stock"
+      }
+    },
+    {
+      "_id": "elem-1tEbezOH",
+      "attributes": {
+        "label": "H2  送檢單位  遺傳諮詢員",
+        "element type": "Actor Hospital",
+        "tags": [
+          "core",
+          "gov"
+        ]
+      }
+    },
+    {
+      "_id": "elem-2U23kPmH",
+      "attributes": {
+        "label": "罕見疾病基金會",
+        "element type": "Actor TFRD",
+        "tags": [
+          "core",
+          "ext",
+          "gov",
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-2fat5WwW",
+      "attributes": {
+        "label": "送檢",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-3Si7TJoI",
+      "attributes": {
+        "label": "目標",
+        "tags": [
+          "opp",
+          "opp2"
+        ]
+      }
+    },
+    {
+      "_id": "elem-3esE6VJY",
+      "attributes": {
+        "label": "知道方案的醫生人數"
+      }
+    },
+    {
+      "_id": "elem-4RdZIDEn",
+      "attributes": {
+        "label": "政府",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-4m5bCZCr",
+      "attributes": {
+        "label": "H1  送檢醫生",
+        "element type": "Actor Hospital",
+        "tags": [
+          "core",
+          "gov"
+        ]
+      }
+    },
+    {
+      "_id": "elem-63CHvk3B",
+      "attributes": {
+        "label": "檢驗單位的個案數"
+      }
+    },
+    {
+      "_id": "elem-660JkRD0",
+      "attributes": {
+        "label": "F4  病友團體",
+        "element type": "Actor TFRD",
+        "tags": [
+          "core"
+        ]
+      }
+    },
+    {
+      "_id": "elem-6Qe5Fymv",
+      "attributes": {
+        "label": "檢驗單位的收入"
+      }
+    },
+    {
+      "_id": "elem-6iVPk6Nd",
+      "attributes": {
+        "label": "檢驗費用高",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-7mnIB1WV",
+      "attributes": {
+        "label": "提高送檢數量",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-7pTm09rp",
+      "attributes": {
+        "label": "死亡人數",
+        "element type": "Flow",
+        "tags": [
+          "sfd"
+        ]
+      }
+    },
+    {
+      "_id": "elem-7upWnj85",
+      "attributes": {
+        "label": "健康出生",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-8pOIwJsg",
+      "attributes": {
+        "label": "提高患者  確診比例",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-9RwhnvbD",
+      "attributes": {
+        "label": "基金會的經費sink"
+      }
+    },
+    {
+      "_id": "elem-A8fsNhc8",
+      "attributes": {
+        "label": "檢驗單位列在方案的檢驗項目數"
+      }
+    },
+    {
+      "_id": "elem-ALowFbPy",
+      "attributes": {
+        "label": "跨領域學術研究"
+      }
+    },
+    {
+      "_id": "elem-APuIEOk7",
+      "attributes": {
+        "label": "穩定提供  遺傳檢驗服務  (OPP)",
+        "tags": [
+          "opp1",
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-DalNNleC",
+      "attributes": {
+        "label": "全球患者人數"
+      }
+    },
+    {
+      "_id": "elem-DxJDZkeU",
+      "attributes": {
+        "label": "患者的送檢意願"
+      }
+    },
+    {
+      "_id": "elem-E4Y0keyc",
+      "attributes": {
+        "label": "F2  方案承辦人",
+        "element type": "Actor TFRD",
+        "tags": [
+          "core"
+        ]
+      }
+    },
+    {
+      "_id": "elem-GrsIpeqB",
+      "attributes": {
+        "label": "醫生",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ICsPmR7A",
+      "attributes": {
+        "label": "新的檢驗技術和服務"
+      }
+    },
+    {
+      "_id": "elem-IMRLi2eG",
+      "attributes": {
+        "label": "送檢數量太少",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JM901bHe",
+      "attributes": {}
+    },
+    {
+      "_id": "elem-JMSBKEhI",
+      "attributes": {
+        "label": "國內遺傳檢驗  補助方案",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JSvnuIR1",
+      "attributes": {
+        "label": "人口source",
+        "element type": "Source",
+        "tags": [
+          "sfd"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JbSWGeY9",
+      "attributes": {
+        "label": "出生人數",
+        "element type": "Variable",
+        "tags": [
+          "loops"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JnrX90uP",
+      "attributes": {
+        "label": "人口",
+        "element type": "Stock",
+        "tags": [
+          "sfd"
+        ]
+      }
+    },
+    {
+      "_id": "elem-KGFTBU8u",
+      "attributes": {
+        "label": "出生率",
+        "element type": "Variable",
+        "tags": [
+          "loops"
+        ]
+      }
+    },
+    {
+      "_id": "elem-KJivkVYb",
+      "attributes": {
+        "label": "C",
+        "tags": [
+          "cld"
+        ]
+      }
+    },
+    {
+      "_id": "elem-L0V3HqBi",
+      "attributes": {
+        "label": "患者家族",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-M1FXTiDl",
+      "attributes": {
+        "label": "罕病患者",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-M7E5SI61",
+      "attributes": {
+        "label": "基因資料庫的資料量"
+      }
+    },
+    {
+      "_id": "elem-MXCW09k0",
+      "attributes": {
+        "label": "方案的補助項目數source"
+      }
+    },
+    {
+      "_id": "elem-MYmLrXVz",
+      "attributes": {
+        "label": "檢驗的品質"
+      }
+    },
+    {
+      "_id": "elem-N0tffAc7",
+      "attributes": {
+        "label": "服務病友的支出",
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-OHbX2OOo",
+      "attributes": {
+        "label": "檢驗單位的確診人數"
+      }
+    },
+    {
+      "_id": "elem-OxMJNrsk",
+      "attributes": {
+        "label": "基金會的經費",
+        "element type": "Stock"
+      }
+    },
+    {
+      "_id": "elem-PBtR7MHK",
+      "attributes": {
+        "label": "檢驗單位的不可取代性"
+      }
+    },
+    {
+      "_id": "elem-PxhyEewe",
+      "attributes": {
+        "label": "確診人數"
+      }
+    },
+    {
+      "_id": "elem-QkzjH20b",
+      "attributes": {
+        "label": "檢驗單位的技術能力"
+      }
+    },
+    {
+      "_id": "elem-R15zR7YA",
+      "attributes": {
+        "label": "基金會對檢驗單位的議價能力"
+      }
+    },
+    {
+      "_id": "elem-R4mgkTbi",
+      "attributes": {
+        "label": "未確診病友人數"
+      }
+    },
+    {
+      "_id": "elem-RRWB6oxl",
+      "attributes": {
+        "label": "T4  醫學生",
+        "element type": "Actor Lab",
+        "tags": [
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Rj8eZDhJ",
+      "attributes": {
+        "label": "OPP / 障礙",
+        "tags": [
+          "opp",
+          "opp2"
+        ]
+      }
+    },
+    {
+      "_id": "elem-SlY9YGKh",
+      "attributes": {
+        "label": "人口sink",
+        "tags": [
+          "sfd"
+        ]
+      }
+    },
+    {
+      "_id": "elem-TLI3Ki34",
+      "attributes": {
+        "label": "政府補助經費sink"
+      }
+    },
+    {
+      "_id": "elem-TkWfRObP",
+      "attributes": {
+        "label": "政府補助經費source"
+      }
+    },
+    {
+      "_id": "elem-UXkkHWU9",
+      "attributes": {
+        "label": "G2  資拓宏宇",
+        "element type": "Actor Gov",
+        "tags": [
+          "gov"
+        ]
+      }
+    },
+    {
+      "_id": "elem-UtGkRDpg",
+      "attributes": {
+        "label": "檢驗單位其他服務的業績"
+      }
+    },
+    {
+      "_id": "elem-Uz210dA6",
+      "attributes": {
+        "label": "方案經費sink"
+      }
+    },
+    {
+      "_id": "elem-UzZ5FdWc",
+      "attributes": {
+        "label": "出生人數",
+        "element type": "Flow",
+        "tags": [
+          "sfd"
+        ]
+      }
+    },
+    {
+      "_id": "elem-VB7ybgpa",
+      "attributes": {
+        "label": "T3  國外病友",
+        "element type": "Actor Patient",
+        "tags": [
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-VlJiMK9d",
+      "attributes": {
+        "label": "臨床醫師判斷罕病的命中率"
+      }
+    },
+    {
+      "_id": "elem-W3eWX2An",
+      "attributes": {
+        "label": "F5  贊助者",
+        "element type": "Actor TFRD",
+        "tags": [
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-WFc2xODx",
+      "attributes": {
+        "label": "死亡率",
+        "tags": [
+          "sfd"
+        ]
+      }
+    },
+    {
+      "_id": "elem-WUYyIg38",
+      "attributes": {
+        "label": "申請方案的人數"
+      }
+    },
+    {
+      "_id": "elem-WVERmDux",
+      "attributes": {
+        "label": "檢驗試劑耗材單價成本"
+      }
+    },
+    {
+      "_id": "elem-WmBoihy0",
+      "attributes": {
+        "label": "檢驗單位",
+        "element type": "Actor Lab",
+        "tags": [
+          "core",
+          "gov",
+          "ext",
+          "opp1",
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-XL0jAX1Z",
+      "attributes": {
+        "label": "人口",
+        "element type": "Variable",
+        "tags": [
+          "loops"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Xy26p2jh",
+      "attributes": {
+        "label": "方案的實用性"
+      }
+    },
+    {
+      "_id": "elem-YvdtHv0U",
+      "attributes": {
+        "label": "罕見疾病基金會",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ZNyrzuqe",
+      "attributes": {
+        "label": "檢驗單位收到的檢驗案數"
+      }
+    },
+    {
+      "_id": "elem-ZT5ozxsk",
+      "attributes": {
+        "label": "P2  病友親友",
+        "element type": "Actor Patient",
+        "tags": [
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ZrggPGPC",
+      "attributes": {
+        "label": "行動者",
+        "tags": [
+          "opp1"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Ztog9jkE",
+      "attributes": {
+        "label": "臨床醫師送檢數量"
+      }
+    },
+    {
+      "_id": "elem-Zxz4Bfgp",
+      "attributes": {
+        "label": "死亡率",
+        "element type": "Variable",
+        "tags": [
+          "loops"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ZyQenVD7",
+      "attributes": {
+        "label": "政府補助的檢驗項目數",
+        "element type": "Stock"
+      }
+    },
+    {
+      "_id": "elem-ZzOeqfB1",
+      "attributes": {
+        "label": "政府補助的檢驗項目數sink"
+      }
+    },
+    {
+      "_id": "elem-aGe64MQm",
+      "attributes": {
+        "label": "支持病友",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-aWNs2opq",
+      "attributes": {
+        "label": "基金會的經費source"
+      }
+    },
+    {
+      "_id": "elem-ayjusQuQ",
+      "attributes": {
+        "label": "基金會的收入",
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-bE6bIth6",
+      "attributes": {
+        "label": "檢驗單位的名聲"
+      }
+    },
+    {
+      "_id": "elem-bheE27ef",
+      "attributes": {
+        "label": "政府補助的支出",
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-cCQoFtjy",
+      "attributes": {
+        "label": "提供病友  社會福利",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-dnc7TLFn",
+      "attributes": {
+        "label": "病友團體",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-dsivNo5Q",
+      "attributes": {
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-ejcKdmTm",
+      "attributes": {
+        "element type": "Flow",
+        "label": "基金會評估"
+      }
+    },
+    {
+      "_id": "elem-ep6OH28E",
+      "attributes": {
+        "label": "治療病友",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-epeXt4TC",
+      "attributes": {
+        "label": "病友確診前所造成政府額外的醫療支出"
+      }
+    },
+    {
+      "_id": "elem-eySWGfKT",
+      "attributes": {
+        "element type": "Flow",
+        "label": "基金會評估"
+      }
+    },
+    {
+      "_id": "elem-f5u4Jy7y",
+      "attributes": {
+        "label": "政府補助的便利性"
+      }
+    },
+    {
+      "_id": "elem-fYqZrppt",
+      "attributes": {
+        "label": "T2  國外學者",
+        "element type": "Actor Lab",
+        "tags": [
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-fxjonbl8",
+      "attributes": {
+        "label": "檢驗單位來自方案的送檢數"
+      }
+    },
+    {
+      "_id": "elem-gF1Mq63s",
+      "attributes": {
+        "label": "不知道病因  (障礙)",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-gI9giOgb",
+      "attributes": {
+        "label": "F3  基金會內  遺傳諮詢師",
+        "element type": "Actor TFRD",
+        "tags": [
+          "core"
+        ]
+      }
+    },
+    {
+      "_id": "elem-gO68roLM",
+      "attributes": {
+        "label": "死亡人數",
+        "element type": "Variable",
+        "tags": [
+          "loops"
+        ]
+      }
+    },
+    {
+      "_id": "elem-gV7nxYeo",
+      "attributes": {
+        "label": "檢驗單位的毛利"
+      }
+    },
+    {
+      "_id": "elem-hxDN2ENb",
+      "attributes": {
+        "label": "不熟悉罕病",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-iHfwRlxk",
+      "attributes": {
+        "label": "臨床醫師的經驗"
+      }
+    },
+    {
+      "_id": "elem-iiYDES4k",
+      "attributes": {
+        "label": "G1  政府",
+        "element type": "Actor Gov",
+        "tags": [
+          "gov"
+        ]
+      }
+    },
+    {
+      "_id": "elem-jca7Mbmn",
+      "attributes": {
+        "label": "加入基金會的人數"
+      }
+    },
+    {
+      "_id": "elem-jsma4P39",
+      "attributes": {
+        "label": "檢驗單位開發新技術和服務的意願"
+      }
+    },
+    {
+      "_id": "elem-k35RrZDz",
+      "attributes": {
+        "label": "藥廠研發罕病的意願"
+      }
+    },
+    {
+      "_id": "elem-kK43uGkW",
+      "attributes": {
+        "label": "患者下一代或患  者父母的下一胎",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-lKGuVI74",
+      "attributes": {
+        "label": "行動者",
+        "tags": [
+          "opp",
+          "opp2"
+        ]
+      }
+    },
+    {
+      "_id": "elem-li0TNzv6",
+      "attributes": {
+        "label": "R11"
+      }
+    },
+    {
+      "_id": "elem-nvxR1uEb",
+      "attributes": {
+        "label": "方案的經費",
+        "element type": "Stock"
+      }
+    },
+    {
+      "_id": "elem-oTY4WpjG",
+      "attributes": {
+        "label": "服務病友",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-pCi3PQYr",
+      "attributes": {
+        "label": "發病前送檢",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-pMudzgKn",
+      "attributes": {
+        "label": "T5  醫療社群",
+        "element type": "Actor Lab",
+        "tags": [
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-poDqIIrr",
+      "attributes": {
+        "label": "B",
+        "tags": [
+          "cld"
+        ]
+      }
+    },
+    {
+      "_id": "elem-q4A9B8ca",
+      "attributes": {
+        "label": "不知道是  高風險者  (障礙)",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-qpqQ29Mi",
+      "attributes": {
+        "label": "送檢的確診者親友人數"
+      }
+    },
+    {
+      "_id": "elem-qxqiv7EG",
+      "attributes": {
+        "label": "方案經費source"
+      }
+    },
+    {
+      "_id": "elem-rtGnohud",
+      "attributes": {
+        "label": "患者的檢驗支出"
+      }
+    },
+    {
+      "_id": "elem-sJ57CveD",
+      "attributes": {
+        "label": "方案的收入",
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-ssCwDZGr",
+      "attributes": {
+        "label": "申請政府補助的人數"
+      }
+    },
+    {
+      "_id": "elem-t2YZcBFJ",
+      "attributes": {
+        "label": "S1  國內遺傳檢驗  補助方案",
+        "element type": "Actor GTA",
+        "tags": [
+          "core",
+          "gov"
+        ]
+      }
+    },
+    {
+      "_id": "elem-thsefXxJ",
+      "attributes": {
+        "label": "國外知名度"
+      }
+    },
+    {
+      "_id": "elem-umjBpmfT",
+      "attributes": {
+        "label": "OPP / 障礙",
+        "tags": [
+          "opp1"
+        ]
+      }
+    },
+    {
+      "_id": "elem-uwrHvsVm",
+      "attributes": {
+        "label": "醫生"
+      }
+    },
+    {
+      "_id": "elem-vTSbSvb5",
+      "attributes": {
+        "label": "政府補助的經費",
+        "element type": "Stock"
+      }
+    },
+    {
+      "_id": "elem-vhMw8eCe",
+      "attributes": {
+        "label": "政府補助的財源",
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-vocQimZg",
+      "attributes": {
+        "label": "P1  病友家庭",
+        "element type": "Actor Patient",
+        "tags": [
+          "core",
+          "ext"
+        ]
+      }
+    },
+    {
+      "_id": "elem-vveLOUBK",
+      "attributes": {
+        "label": "目標",
+        "tags": [
+          "opp",
+          "opp1"
+        ]
+      }
+    },
+    {
+      "_id": "elem-vwUWDkky",
+      "attributes": {
+        "label": "基金會和檢驗單位之間的信任度"
+      }
+    },
+    {
+      "_id": "elem-xeI6rhkL",
+      "attributes": {
+        "label": "檢驗項目的價格"
+      }
+    },
+    {
+      "_id": "elem-xfxlQJav",
+      "attributes": {
+        "label": "建議患者送檢",
+        "tags": [
+          "opp2",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-xieCFCUX",
+      "attributes": {
+        "element type": "Flow",
+        "label": "政府評估"
+      }
+    },
+    {
+      "_id": "elem-y1y8VLJb",
+      "attributes": {
+        "label": "方案的支出",
+        "element type": "Flow"
+      }
+    },
+    {
+      "_id": "elem-zBHOxHXB",
+      "attributes": {
+        "label": "醫生",
+        "tags": [
+          "opp1",
+          "opp"
+        ]
+      }
+    },
+    {
+      "_id": "elem-zhmOKqHL",
+      "attributes": {
+        "label": "出生率",
+        "tags": [
+          "sfd"
+        ]
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-0CGsgU6h",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-fxjonbl8",
+      "to": "elem-A8fsNhc8"
+    },
+    {
+      "_id": "conn-0CtBg0sc",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-M1FXTiDl",
+      "to": "elem-JMSBKEhI"
+    },
+    {
+      "_id": "conn-0K3jtoAn",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-660JkRD0"
+    },
+    {
+      "_id": "conn-0SJOqdpo",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-1",
+        "connection type": "+",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-QkzjH20b",
+      "to": "elem-ICsPmR7A"
+    },
+    {
+      "_id": "conn-0SLcv72j",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1G1"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-0Uscz4LB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JMSBKEhI",
+      "to": "elem-7mnIB1WV"
+    },
+    {
+      "_id": "conn-0hvuk6AO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i10"
+        ],
+        "label": "I10"
+      },
+      "from": "elem-ZNyrzuqe",
+      "to": "elem-6Qe5Fymv"
+    },
+    {
+      "_id": "conn-0rVWiNxy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-nvxR1uEb",
+      "to": "elem-y1y8VLJb"
+    },
+    {
+      "_id": "conn-1HFxUtLl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "loops"
+        ]
+      },
+      "from": "elem-gO68roLM",
+      "to": "elem-XL0jAX1Z"
+    },
+    {
+      "_id": "conn-1TAmIgTW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "E1-2",
+        "tags": [
+          "e1-2"
+        ]
+      },
+      "from": "elem-PxhyEewe",
+      "to": "elem-DalNNleC"
+    },
+    {
+      "_id": "conn-1TlECJRF",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "A1-2 C2"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-1Xy9RycG",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-IMRLi2eG",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-1abU1RDE",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-E4Y0keyc"
+    },
+    {
+      "_id": "conn-1g8cbwPI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "infer",
+          "i19"
+        ],
+        "label": "I19"
+      },
+      "from": "elem-epeXt4TC",
+      "to": "elem-sJ57CveD"
+    },
+    {
+      "_id": "conn-1t11uCbJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-OxMJNrsk",
+      "to": "elem-dsivNo5Q"
+    },
+    {
+      "_id": "conn-1vi5ZOGN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "A2-6",
+        "connection type": "+",
+        "tags": [
+          "a2-6"
+        ]
+      },
+      "from": "elem-vwUWDkky",
+      "to": "elem-jsma4P39"
+    },
+    {
+      "_id": "conn-2EdDjlc1",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "G1G2"
+      },
+      "from": "elem-UXkkHWU9",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-2G1XSZNo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-5",
+        "connection type": "+",
+        "tags": [
+          "b1-5"
+        ]
+      },
+      "from": "elem-iHfwRlxk",
+      "to": "elem-VlJiMK9d"
+    },
+    {
+      "_id": "conn-2LPmLfjO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-nvxR1uEb",
+      "to": "elem-1cN92die"
+    },
+    {
+      "_id": "conn-2ge6540p",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-E4Y0keyc",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-2w4wFRYj",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "loops"
+        ]
+      },
+      "from": "elem-XL0jAX1Z",
+      "to": "elem-JbSWGeY9"
+    },
+    {
+      "_id": "conn-31sQyQeJ",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-E4Y0keyc",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-3CUTvN6M",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1P1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-3GFW8mer",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-1",
+        "tags": [
+          "b1-1"
+        ],
+        "connection type": "+"
+      },
+      "from": "elem-63CHvk3B",
+      "to": "elem-QkzjH20b"
+    },
+    {
+      "_id": "conn-3MwzK8ay",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-E4Y0keyc",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-3fbZ1zTG",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1G1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-3jN6SpMc",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "T1T4"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-RRWB6oxl"
+    },
+    {
+      "_id": "conn-3upTC78w",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "G1G2"
+      },
+      "from": "elem-iiYDES4k",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-42Q52uqB",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-49KbbURa",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1tEbezOH",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-4XoEAbXU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ejcKdmTm",
+      "to": "elem-1cN92die"
+    },
+    {
+      "_id": "conn-4ZEnN317",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1H1"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-4tWDOoBi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "description": "",
+        "label": "A2-1  A2-7",
+        "tags": [
+          "a2-1",
+          "a2-7"
+        ]
+      },
+      "from": "elem-3esE6VJY",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-5NZUbt8B",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-5QSaj0mw",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H2G1"
+      },
+      "from": "elem-iiYDES4k",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-5i9jfSbd",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1Ah51Wwp",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-5ibN07Xl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i15"
+        ],
+        "label": "I15"
+      },
+      "from": "elem-R4mgkTbi",
+      "to": "elem-epeXt4TC"
+    },
+    {
+      "_id": "conn-77aEzJjc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zBHOxHXB",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-77pcIZYN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-3",
+        "tags": [
+          "a2-3"
+        ]
+      },
+      "from": "elem-A8fsNhc8",
+      "to": "elem-R15zR7YA"
+    },
+    {
+      "_id": "conn-7C4VWSeu",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-7VoK30F1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "from": "elem-WFc2xODx",
+      "to": "elem-7pTm09rp"
+    },
+    {
+      "_id": "conn-7douYWKB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-5",
+        "tags": [
+          "a2-5"
+        ]
+      },
+      "from": "elem-xeI6rhkL",
+      "to": "elem-rtGnohud"
+    },
+    {
+      "_id": "conn-7g0dDw1j",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-OxMJNrsk",
+      "to": "elem-eySWGfKT"
+    },
+    {
+      "_id": "conn-7iztMG9G",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vocQimZg",
+      "to": "elem-660JkRD0"
+    },
+    {
+      "_id": "conn-7nUKPGja",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "A2-6",
+        "connection type": "+",
+        "tags": [
+          "a2-6"
+        ]
+      },
+      "from": "elem-ZNyrzuqe",
+      "to": "elem-jsma4P39"
+    },
+    {
+      "_id": "conn-7ucTnjlu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-6",
+        "tags": [
+          "b1-6"
+        ]
+      },
+      "from": "elem-OHbX2OOo",
+      "to": "elem-qpqQ29Mi"
+    },
+    {
+      "_id": "conn-8K7QI2Q8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-2",
+        "connection type": "+",
+        "tags": [
+          "b1-2"
+        ]
+      },
+      "from": "elem-thsefXxJ",
+      "to": "elem-0yfv5OBU"
+    },
+    {
+      "_id": "conn-96fn3oru",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1T5"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-pMudzgKn"
+    },
+    {
+      "_id": "conn-9H2b4JRw",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "from": "elem-JnrX90uP",
+      "to": "elem-UzZ5FdWc"
+    },
+    {
+      "_id": "conn-9dBaPN5k",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1H1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-9nV3Lxbs",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-M1FXTiDl",
+      "to": "elem-6iVPk6Nd"
+    },
+    {
+      "_id": "conn-A4TxseL7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-3",
+        "connection type": "+",
+        "tags": [
+          "b1-3"
+        ]
+      },
+      "from": "elem-QkzjH20b",
+      "to": "elem-PBtR7MHK"
+    },
+    {
+      "_id": "conn-AAA5Zoyh",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3T1"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-AFkYeJNR",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1T1"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-AJHHR4MT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-N0tffAc7",
+      "to": "elem-9RwhnvbD"
+    },
+    {
+      "_id": "conn-ARGN5e8H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-xeI6rhkL",
+      "to": "elem-JM901bHe"
+    },
+    {
+      "_id": "conn-AjlxyjJO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-2",
+        "tags": [
+          "b1-2"
+        ]
+      },
+      "from": "elem-0yfv5OBU",
+      "to": "elem-ZNyrzuqe"
+    },
+    {
+      "_id": "conn-B2I0t7f1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-1",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-ICsPmR7A",
+      "to": "elem-ejcKdmTm"
+    },
+    {
+      "_id": "conn-B3kinKkS",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-E4Y0keyc"
+    },
+    {
+      "_id": "conn-Bl1QGwgt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-Bt2Pz4rG",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-zBHOxHXB",
+      "to": "elem-gF1Mq63s"
+    },
+    {
+      "_id": "conn-BtE75uoz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-4",
+        "tags": [
+          "a2-4"
+        ]
+      },
+      "from": "elem-nvxR1uEb",
+      "to": "elem-ejcKdmTm"
+    },
+    {
+      "_id": "conn-Bw1Dxs7A",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i8"
+        ],
+        "label": "I8"
+      },
+      "from": "elem-WUYyIg38",
+      "to": "elem-PxhyEewe"
+    },
+    {
+      "_id": "conn-C9hXZBMj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-dnc7TLFn",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-CeWKVi8p",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-"
+      },
+      "from": "elem-rtGnohud",
+      "to": "elem-DxJDZkeU"
+    },
+    {
+      "_id": "conn-CgkMyN3r",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3H2"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-Ci7edkeb",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-E4Y0keyc"
+    },
+    {
+      "_id": "conn-Cq8flZWM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-y1y8VLJb",
+      "to": "elem-Uz210dA6"
+    },
+    {
+      "_id": "conn-CvNIYQMv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-1",
+        "tags": [
+          "a2-1"
+        ]
+      },
+      "from": "elem-WUYyIg38",
+      "to": "elem-y1y8VLJb"
+    },
+    {
+      "_id": "conn-DBmtHb3q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "tags": [
+          "a2-2",
+          "b1-1"
+        ]
+      },
+      "from": "elem-MXCW09k0",
+      "to": "elem-ejcKdmTm"
+    },
+    {
+      "_id": "conn-DOsQg7dH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "loops"
+        ]
+      },
+      "from": "elem-Zxz4Bfgp",
+      "to": "elem-gO68roLM"
+    },
+    {
+      "_id": "conn-DbnNOQPh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "loops"
+        ]
+      },
+      "from": "elem-XL0jAX1Z",
+      "to": "elem-gO68roLM"
+    },
+    {
+      "_id": "conn-DgMlKGbQ",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-DxEYssWX",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-660JkRD0",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-E0Vl0O9a",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-JMSBKEhI"
+    },
+    {
+      "_id": "conn-EIRN7RqE",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-E4Y0keyc"
+    },
+    {
+      "_id": "conn-EIl2Qqtw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "infer",
+          "i4"
+        ],
+        "label": "I4"
+      },
+      "from": "elem-VlJiMK9d",
+      "to": "elem-y1y8VLJb"
+    },
+    {
+      "_id": "conn-EzqS9p3o",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "tags": [
+          "a2-5"
+        ],
+        "label": "A2-5",
+        "connection type": "-"
+      },
+      "from": "elem-rtGnohud",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-F1zYob4f",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-F6mT9Cq8",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1G1"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-FDtdf320",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-q4A9B8ca",
+      "to": "elem-7upWnj85"
+    },
+    {
+      "_id": "conn-FJ2CnlZ2",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3H1"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-FKCAu6Xq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-eySWGfKT",
+      "to": "elem-nvxR1uEb"
+    },
+    {
+      "_id": "conn-FYd70Sex",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3H1"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-Fv5MefXt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3H1"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-GrvxqDyM",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1V1"
+      },
+      "from": "elem-1Ah51Wwp",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-H7iFR3na",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "P1F1"
+      },
+      "from": "elem-vocQimZg",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-HMjW9gnz",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1T1"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-HPgeKETS",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-HRGEuK04",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "loops"
+        ]
+      },
+      "from": "elem-JbSWGeY9",
+      "to": "elem-XL0jAX1Z"
+    },
+    {
+      "_id": "conn-HfCt8Gdg",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3S1"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-HtQPNPSN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-aWNs2opq",
+      "to": "elem-ayjusQuQ"
+    },
+    {
+      "_id": "conn-I09e2ow4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "from": "elem-JnrX90uP",
+      "to": "elem-7pTm09rp"
+    },
+    {
+      "_id": "conn-IKsWA31U",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "T1T2"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-fYqZrppt"
+    },
+    {
+      "_id": "conn-IiU1tFeW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JMSBKEhI",
+      "to": "elem-xfxlQJav"
+    },
+    {
+      "_id": "conn-Iq6uk8Y6",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-6iVPk6Nd",
+      "to": "elem-2fat5WwW"
+    },
+    {
+      "_id": "conn-IsnWBIkX",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-660JkRD0",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-IzmZcxmM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-1",
+        "connection type": "+",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-QkzjH20b",
+      "to": "elem-bE6bIth6"
+    },
+    {
+      "_id": "conn-JXAlP82H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-ep6OH28E"
+    },
+    {
+      "_id": "conn-JYlYcNDW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i9"
+        ],
+        "label": "I9"
+      },
+      "from": "elem-ssCwDZGr",
+      "to": "elem-PxhyEewe"
+    },
+    {
+      "_id": "conn-JbduktTV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-A8fsNhc8",
+      "to": "elem-jsma4P39"
+    },
+    {
+      "_id": "conn-Jd6Wf5t4",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-L0V3HqBi",
+      "to": "elem-q4A9B8ca"
+    },
+    {
+      "_id": "conn-KB5j4QBi",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "T1T3"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-VB7ybgpa"
+    },
+    {
+      "_id": "conn-KReccnRt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1tEbezOH",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-KWckCGds",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "G1G2"
+      },
+      "from": "elem-iiYDES4k",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-L2Xnlm6m",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "label": "B1-1"
+      },
+      "from": "elem-ICsPmR7A",
+      "to": "elem-ejcKdmTm"
+    },
+    {
+      "_id": "conn-L56qKclF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-sJ57CveD",
+      "to": "elem-nvxR1uEb"
+    },
+    {
+      "_id": "conn-LY57QSsw",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1V1"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-1Ah51Wwp"
+    },
+    {
+      "_id": "conn-LnV82oDK",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-vhMw8eCe",
+      "to": "elem-vTSbSvb5"
+    },
+    {
+      "_id": "conn-LrCE7NSN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "infer",
+          "i12"
+        ],
+        "label": "I12"
+      },
+      "from": "elem-WVERmDux",
+      "to": "elem-gV7nxYeo"
+    },
+    {
+      "_id": "conn-M0LIdvmJ",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-IMRLi2eG"
+    },
+    {
+      "_id": "conn-M4UiAqUw",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-E4Y0keyc"
+    },
+    {
+      "_id": "conn-MQTb3AMT",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-q4A9B8ca",
+      "to": "elem-pCi3PQYr"
+    },
+    {
+      "_id": "conn-MhfSrPWw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i13"
+        ],
+        "label": "I13"
+      },
+      "from": "elem-PxhyEewe",
+      "to": "elem-jca7Mbmn"
+    },
+    {
+      "_id": "conn-MiPBygHN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "A2-4",
+        "tags": [
+          "a2-4"
+        ]
+      },
+      "from": "elem-nvxR1uEb",
+      "to": "elem-1cN92die"
+    },
+    {
+      "_id": "conn-MmPeA9wK",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "A1-2 B"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-N21h6nbN",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1tEbezOH",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-NM66Vziq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-1",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-1cN92die",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-O1oOAEXY",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-gI9giOgb",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-OEX10PCz",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "P1H2"
+      },
+      "from": "elem-1tEbezOH",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-OJHKca9I",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "T1G1"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-OsUmgApD",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-PQy3sVWA",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1G1"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-PXcAX047",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-gF1Mq63s",
+      "to": "elem-aGe64MQm"
+    },
+    {
+      "_id": "conn-PdaqSFyl",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-gI9giOgb",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-Pi6TAI5W",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "label": "I20",
+        "tags": [
+          "infer",
+          "i20"
+        ]
+      },
+      "from": "elem-epeXt4TC",
+      "to": "elem-vhMw8eCe"
+    },
+    {
+      "_id": "conn-QBR3zYGb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-zhmOKqHL",
+      "to": "elem-UzZ5FdWc"
+    },
+    {
+      "_id": "conn-QKSWxdYS",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-GrsIpeqB",
+      "to": "elem-gF1Mq63s"
+    },
+    {
+      "_id": "conn-QOvrUsZ4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-1",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-6Qe5Fymv",
+      "to": "elem-QkzjH20b"
+    },
+    {
+      "_id": "conn-QSLNahSo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GrsIpeqB",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-QWcQhl1S",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-QXdBeVPn",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-vTSbSvb5",
+      "to": "elem-bheE27ef"
+    },
+    {
+      "_id": "conn-QYPWzz27",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-6",
+        "tags": [
+          "b1-6"
+        ]
+      },
+      "from": "elem-ZNyrzuqe",
+      "to": "elem-OHbX2OOo"
+    },
+    {
+      "_id": "conn-QbIs1QsX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-cCQoFtjy"
+    },
+    {
+      "_id": "conn-QhgVGMTv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "label": "A2-2",
+        "tags": [
+          "a2-2"
+        ]
+      },
+      "from": "elem-1cN92die",
+      "to": "elem-xieCFCUX"
+    },
+    {
+      "_id": "conn-Qjd3JXdL",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-gF1Mq63s",
+      "to": "elem-cCQoFtjy"
+    },
+    {
+      "_id": "conn-QjfC8PRf",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1tEbezOH",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-QpNgjlfw",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-QtpPf7Ys",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3S1"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-RFx3K1Ij",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "loops"
+        ]
+      },
+      "from": "elem-KGFTBU8u",
+      "to": "elem-JbSWGeY9"
+    },
+    {
+      "_id": "conn-RNBnEc4s",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-5",
+        "tags": [
+          "b1-5"
+        ]
+      },
+      "from": "elem-Ztog9jkE",
+      "to": "elem-iHfwRlxk"
+    },
+    {
+      "_id": "conn-Rj4szReH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4RdZIDEn",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-RuISnsOR",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1G2"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-S9QkMDb3",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-SAynyaiq",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1G1"
+      },
+      "from": "elem-iiYDES4k",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-SJUBWoNx",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1T1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-STDoWrIt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-VB7ybgpa",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-SYBzEIkp",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-SsEIVlXu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-2",
+        "tags": [
+          "a2-2"
+        ]
+      },
+      "from": "elem-f5u4Jy7y",
+      "to": "elem-ssCwDZGr"
+    },
+    {
+      "_id": "conn-TAHwnx4o",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1T1"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-TgVIj9PW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-2",
+        "connection type": "+",
+        "tags": [
+          "b1-2"
+        ]
+      },
+      "from": "elem-QkzjH20b",
+      "to": "elem-thsefXxJ"
+    },
+    {
+      "_id": "conn-Tp6buCPU",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-kK43uGkW",
+      "to": "elem-q4A9B8ca"
+    },
+    {
+      "_id": "conn-TxZ314fe",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1V1"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-1Ah51Wwp"
+    },
+    {
+      "_id": "conn-UBsyDr5r",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-ZyQenVD7",
+      "to": "elem-ZzOeqfB1"
+    },
+    {
+      "_id": "conn-UCnWivl4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-oTY4WpjG"
+    },
+    {
+      "_id": "conn-USTbqkIj",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-4RdZIDEn",
+      "to": "elem-gF1Mq63s"
+    },
+    {
+      "_id": "conn-UZ57lepR",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-660JkRD0",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-V4v4WlhE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-MXCW09k0",
+      "to": "elem-ICsPmR7A"
+    },
+    {
+      "_id": "conn-V6YivvKO",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-W3eWX2An",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-V7K0MZsk",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-VGXNW8W4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "E1-1",
+        "tags": [
+          "e1-1"
+        ]
+      },
+      "from": "elem-M7E5SI61",
+      "to": "elem-ALowFbPy"
+    },
+    {
+      "_id": "conn-VJVYfPav",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-VNCmiRNZ",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-JMSBKEhI"
+    },
+    {
+      "_id": "conn-VNIDmvs5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "label": "I18",
+        "tags": [
+          "infer",
+          "i18"
+        ]
+      },
+      "from": "elem-epeXt4TC",
+      "to": "elem-ayjusQuQ"
+    },
+    {
+      "_id": "conn-Vb6qtU2x",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "P1F4"
+      },
+      "from": "elem-vocQimZg",
+      "to": "elem-660JkRD0"
+    },
+    {
+      "_id": "conn-Vd6Rg58J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i17"
+        ],
+        "label": "I17"
+      },
+      "from": "elem-ssCwDZGr",
+      "to": "elem-bheE27ef"
+    },
+    {
+      "_id": "conn-VfSQB9ff",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "A1-2 C1"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-VjvLtQtW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Flow",
+        "label": "A2-2",
+        "tags": [
+          "a2-2"
+        ]
+      },
+      "from": "elem-1cN92die",
+      "to": "elem-xieCFCUX"
+    },
+    {
+      "_id": "conn-VwpfTO1p",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-kK43uGkW",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-WEpzt2VA",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-WsyXKTTe",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vocQimZg",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-X5n6Thh7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-7upWnj85"
+    },
+    {
+      "_id": "conn-XHRWocoi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-3",
+        "tags": [
+          "a2-3"
+        ]
+      },
+      "from": "elem-xeI6rhkL",
+      "to": "elem-y1y8VLJb"
+    },
+    {
+      "_id": "conn-YRrb1qEO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-1",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-ejcKdmTm",
+      "to": "elem-6Qe5Fymv"
+    },
+    {
+      "_id": "conn-YdORm2BD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i7"
+        ],
+        "label": "I7"
+      },
+      "from": "elem-6Qe5Fymv",
+      "to": "elem-gV7nxYeo"
+    },
+    {
+      "_id": "conn-YvFiPFGq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i1"
+        ],
+        "label": "I1"
+      },
+      "from": "elem-ZNyrzuqe",
+      "to": "elem-0QwZZ6mw"
+    },
+    {
+      "_id": "conn-Z6AfTnRr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i14"
+        ],
+        "label": "I14"
+      },
+      "from": "elem-ZyQenVD7",
+      "to": "elem-ssCwDZGr"
+    },
+    {
+      "_id": "conn-ZSADYBmo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1cN92die",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-ZdJWLgPd",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i2"
+        ],
+        "label": "I2"
+      },
+      "from": "elem-Ztog9jkE",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-a4tbFcm8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "label": "A2-4  A2-5",
+        "tags": [
+          "a2-4",
+          "a2-5"
+        ]
+      },
+      "from": "elem-xeI6rhkL",
+      "to": "elem-ejcKdmTm"
+    },
+    {
+      "_id": "conn-aFyZtZaO",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1tEbezOH",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-aVg2QdK1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "label": "B1-4",
+        "tags": [
+          "b1-4"
+        ]
+      },
+      "from": "elem-0QwZZ6mw",
+      "to": "elem-WVERmDux"
+    },
+    {
+      "_id": "conn-amCjfU7K",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-awrQSJNc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-OxMJNrsk",
+      "to": "elem-N0tffAc7"
+    },
+    {
+      "_id": "conn-b6yD3pBm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-pCi3PQYr"
+    },
+    {
+      "_id": "conn-bGgHKOZz",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-bIN4Hzw3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-qxqiv7EG",
+      "to": "elem-sJ57CveD"
+    },
+    {
+      "_id": "conn-bW3ILI8C",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-DxJDZkeU",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-bbVhT2sf",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "P1P2"
+      },
+      "from": "elem-vocQimZg",
+      "to": "elem-ZT5ozxsk"
+    },
+    {
+      "_id": "conn-bhGg6Xr0",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1G2"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-cD1szZNf",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1G2"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-cDfpiWXu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-6",
+        "tags": [
+          "b1-6"
+        ]
+      },
+      "from": "elem-qpqQ29Mi",
+      "to": "elem-ZNyrzuqe"
+    },
+    {
+      "_id": "conn-cHj9mX3H",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F2P1"
+      },
+      "from": "elem-E4Y0keyc",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-cZARfDL6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i6"
+        ],
+        "label": "I6"
+      },
+      "from": "elem-qpqQ29Mi",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-cceUXmUI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "cld"
+        ]
+      },
+      "from": "elem-poDqIIrr",
+      "to": "elem-KJivkVYb"
+    },
+    {
+      "_id": "conn-dE3h5h0q",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-dnc7TLFn",
+      "to": "elem-gF1Mq63s"
+    },
+    {
+      "_id": "conn-dRoByqPL",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-bheE27ef",
+      "to": "elem-TLI3Ki34"
+    },
+    {
+      "_id": "conn-dl428Hqs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "tags": [
+          "a2-2"
+        ]
+      },
+      "from": "elem-xieCFCUX",
+      "to": "elem-ZyQenVD7"
+    },
+    {
+      "_id": "conn-e9kGrdL1",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3S1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-eEW2ojMl",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "P1F3"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-eRwhHRFs",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1tEbezOH",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-ehguI2lj",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "A2-6",
+        "connection type": "+",
+        "tags": [
+          "a2-6"
+        ]
+      },
+      "from": "elem-jsma4P39",
+      "to": "elem-ICsPmR7A"
+    },
+    {
+      "_id": "conn-epgwgwmB",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "E1-1",
+        "connection type": "+",
+        "tags": [
+          "e1-1"
+        ]
+      },
+      "from": "elem-M7E5SI61",
+      "to": "elem-0Pc2KSoh"
+    },
+    {
+      "_id": "conn-fh4wVsSK",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "B1-6",
+        "tags": [
+          "b1-6"
+        ]
+      },
+      "from": "elem-ZNyrzuqe",
+      "to": "elem-UtGkRDpg"
+    },
+    {
+      "_id": "conn-fn9yoOpT",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ZT5ozxsk",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-fqs8T9eX",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-E4Y0keyc",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-g0HpoUUD",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1F5"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-W3eWX2An"
+    },
+    {
+      "_id": "conn-g23J7RMv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-TkWfRObP",
+      "to": "elem-vhMw8eCe"
+    },
+    {
+      "_id": "conn-gA5fg8Zv",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F1H1"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-gN2mmlKN",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-gkawBMmC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i11"
+        ],
+        "label": "I11"
+      },
+      "from": "elem-xeI6rhkL",
+      "to": "elem-6Qe5Fymv"
+    },
+    {
+      "_id": "conn-gnbWhGPM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "label": "A2-3",
+        "tags": [
+          "a2-3"
+        ]
+      },
+      "from": "elem-R15zR7YA",
+      "to": "elem-xeI6rhkL"
+    },
+    {
+      "_id": "conn-hXBrFnEb",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-YvdtHv0U",
+      "to": "elem-gF1Mq63s"
+    },
+    {
+      "_id": "conn-i5RmG0Jd",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-iWYe2DdB",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "P1H1"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-iWb3JAJt",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-ij10ZeNM",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-jORkCr6i",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3T1"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-jdwUSZMf",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "T1G1"
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-kEhf4dvZ",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1G1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-kX5ACKb3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-WUYyIg38",
+      "to": "elem-fxjonbl8"
+    },
+    {
+      "_id": "conn-kXvXi2rc",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "cld"
+        ]
+      },
+      "from": "elem-KJivkVYb",
+      "to": "elem-xieCFCUX"
+    },
+    {
+      "_id": "conn-l68gtof5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-3",
+        "connection type": "+",
+        "tags": [
+          "b1-3"
+        ]
+      },
+      "from": "elem-PBtR7MHK",
+      "to": "elem-xeI6rhkL"
+    },
+    {
+      "_id": "conn-lCUzXnHv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-4",
+        "tags": [
+          "a2-4"
+        ]
+      },
+      "from": "elem-dsivNo5Q",
+      "to": "elem-1cN92die"
+    },
+    {
+      "_id": "conn-lNhgryES",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "B1-1",
+        "connection type": "+",
+        "tags": [
+          "b1-1"
+        ]
+      },
+      "from": "elem-QkzjH20b",
+      "to": "elem-MYmLrXVz"
+    },
+    {
+      "_id": "conn-lntpmbip",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-UXkkHWU9",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-m0mr4Bk9",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "E1-2",
+        "tags": [
+          "e1-2"
+        ],
+        "connection type": "+"
+      },
+      "from": "elem-k35RrZDz",
+      "to": "elem-0Pc2KSoh"
+    },
+    {
+      "_id": "conn-mC7k07Qr",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-mV9UDtpx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "E1-1",
+        "tags": [
+          "e1-1"
+        ]
+      },
+      "from": "elem-PxhyEewe",
+      "to": "elem-M7E5SI61"
+    },
+    {
+      "_id": "conn-mYUHD8j4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "cld"
+        ]
+      },
+      "from": "elem-xieCFCUX",
+      "to": "elem-poDqIIrr"
+    },
+    {
+      "_id": "conn-nLDdUdG1",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-2U23kPmH",
+      "to": "elem-gI9giOgb"
+    },
+    {
+      "_id": "conn-nVN0Iytb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-YvdtHv0U",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-nYsWyTgg",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-o3oooOVg",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vocQimZg",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-oP2rshrL",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-oQ1m7zWE",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F3H1"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-oVp4QROM",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1H2"
+      },
+      "from": "elem-1tEbezOH",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-oo40yAEX",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "F2P1"
+      },
+      "from": "elem-vocQimZg",
+      "to": "elem-E4Y0keyc"
+    },
+    {
+      "_id": "conn-otkiaS7F",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-oxXpSsO1",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1 F3"
+      },
+      "from": "elem-gI9giOgb",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-oyu6F3QX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JMSBKEhI",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-p75DiAgN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "E1-2",
+        "tags": [
+          "e1-2"
+        ]
+      },
+      "from": "elem-DalNNleC",
+      "to": "elem-k35RrZDz"
+    },
+    {
+      "_id": "conn-pFDtTNZG",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-GrsIpeqB",
+      "to": "elem-hxDN2ENb"
+    },
+    {
+      "_id": "conn-pvd7CbGo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i5"
+        ],
+        "label": "I5"
+      },
+      "from": "elem-jca7Mbmn",
+      "to": "elem-N0tffAc7"
+    },
+    {
+      "_id": "conn-q7TgU0Sl",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-gF1Mq63s",
+      "to": "elem-ep6OH28E"
+    },
+    {
+      "_id": "conn-qA3bZtp9",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1G2"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-qXd4nmGm",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GrsIpeqB",
+      "to": "elem-JMSBKEhI"
+    },
+    {
+      "_id": "conn-qZZQLsQb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-8pOIwJsg"
+    },
+    {
+      "_id": "conn-qcKJXHk1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "tags": [
+          "infer",
+          "i16"
+        ],
+        "label": "I16"
+      },
+      "from": "elem-PxhyEewe",
+      "to": "elem-R4mgkTbi"
+    },
+    {
+      "_id": "conn-qqpMjyvv",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "tags": [
+          "opp1"
+        ]
+      },
+      "from": "elem-WmBoihy0",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-rI5egbZy",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-pMudzgKn"
+    },
+    {
+      "_id": "conn-rJbZs2cy",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-vocQimZg"
+    },
+    {
+      "_id": "conn-s2e0Cjmc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "infer",
+          "i3"
+        ],
+        "label": "I3"
+      },
+      "from": "elem-1cN92die",
+      "to": "elem-A8fsNhc8"
+    },
+    {
+      "_id": "conn-s2gb42tq",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-gF1Mq63s",
+      "to": "elem-oTY4WpjG"
+    },
+    {
+      "_id": "conn-s9GTG7ze",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-JMSBKEhI",
+      "to": "elem-2fat5WwW"
+    },
+    {
+      "_id": "conn-sPL4Zd1B",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-1",
+        "tags": [
+          "a2-1"
+        ]
+      },
+      "from": "elem-Xy26p2jh",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-tXdKhiqj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow"
+      },
+      "from": "elem-ayjusQuQ",
+      "to": "elem-OxMJNrsk"
+    },
+    {
+      "_id": "conn-tdGlx7mO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "from": "elem-JnrX90uP",
+      "to": "elem-SlY9YGKh"
+    },
+    {
+      "_id": "conn-tuvJxtRY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-ZyQenVD7",
+      "to": "elem-ssCwDZGr"
+    },
+    {
+      "_id": "conn-uIPhSvfj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "b1-1"
+        ],
+        "label": "B1-1"
+      },
+      "from": "elem-A8fsNhc8",
+      "to": "elem-ZNyrzuqe"
+    },
+    {
+      "_id": "conn-ummb0xAD",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-WmBoihy0",
+      "to": "elem-2U23kPmH"
+    },
+    {
+      "_id": "conn-v3qpnzyw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "from": "elem-JSvnuIR1",
+      "to": "elem-JnrX90uP"
+    },
+    {
+      "_id": "conn-vBx1h7Js",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-UXkkHWU9"
+    },
+    {
+      "_id": "conn-vNWSbBu7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "from": "elem-zhmOKqHL",
+      "to": "elem-UzZ5FdWc"
+    },
+    {
+      "_id": "conn-vTWoQII8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Flow",
+        "tags": [
+          "a2-2",
+          "b1-1"
+        ],
+        "label": "A2-2  B1-1"
+      },
+      "from": "elem-ejcKdmTm",
+      "to": "elem-1cN92die"
+    },
+    {
+      "_id": "conn-vwzIpCY6",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+"
+      },
+      "from": "elem-2U23kPmH",
+      "to": "elem-JMSBKEhI"
+    },
+    {
+      "_id": "conn-wYZ7Bzv8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-L0V3HqBi",
+      "to": "elem-APuIEOk7"
+    },
+    {
+      "_id": "conn-wlII0VyX",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1G2"
+      },
+      "from": "elem-UXkkHWU9",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-wni9XQjz",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-x3MqaFzM",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-4m5bCZCr"
+    },
+    {
+      "_id": "conn-xLFZeO0x",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-APuIEOk7",
+      "to": "elem-aGe64MQm"
+    },
+    {
+      "_id": "conn-xUmoqGAl",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "H1H2"
+      },
+      "from": "elem-4m5bCZCr",
+      "to": "elem-1tEbezOH"
+    },
+    {
+      "_id": "conn-xdMt6UAs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "-",
+        "label": "A2-4",
+        "tags": [
+          "a2-4"
+        ]
+      },
+      "from": "elem-xeI6rhkL",
+      "to": "elem-1cN92die"
+    },
+    {
+      "_id": "conn-y0gKdMfk",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1G1"
+      },
+      "from": "elem-iiYDES4k",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-yAMaxIbs",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "T1V1"
+      },
+      "from": "elem-1Ah51Wwp",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-yQXn53ty",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+",
+        "label": "A2-5",
+        "tags": [
+          "a2-5"
+        ]
+      },
+      "from": "elem-1cN92die",
+      "to": "elem-WUYyIg38"
+    },
+    {
+      "_id": "conn-yY606Hn2",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1H2"
+      },
+      "from": "elem-1tEbezOH",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-yuDn5H51",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-4m5bCZCr",
+      "to": "elem-t2YZcBFJ"
+    },
+    {
+      "_id": "conn-yuI4GjQq",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-fYqZrppt",
+      "to": "elem-WmBoihy0"
+    },
+    {
+      "_id": "conn-z47apVBq",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "S1G1"
+      },
+      "from": "elem-t2YZcBFJ",
+      "to": "elem-iiYDES4k"
+    },
+    {
+      "_id": "conn-zrvApwb1",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Dot"
+      },
+      "from": "elem-hxDN2ENb",
+      "to": "elem-xfxlQJav"
+    }
+  ],
+  "loops": [
+    {
+      "_id": "loop-LG29Qxd0",
+      "attributes": {
+        "label": "B2    人口減少",
+        "tags": [
+          "loops"
+        ]
+      },
+      "connections": [
+        "conn-DbnNOQPh",
+        "conn-1HFxUtLl"
+      ]
+    },
+    {
+      "_id": "loop-P26lNPp1",
+      "attributes": {
+        "label": "R1    人口增加",
+        "tags": [
+          "loops"
+        ]
+      },
+      "connections": [
+        "conn-2w4wFRYj",
+        "conn-HRGEuK04"
+      ]
+    },
+    {
+      "_id": "loop-aVNrmSmG",
+      "attributes": {
+        "label": "B2    人口減少",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "connections": [
+        "conn-I09e2ow4",
+        "conn-tdGlx7mO"
+      ]
+    },
+    {
+      "_id": "loop-ccPeKMz2",
+      "attributes": {
+        "label": "R"
+      },
+      "connections": [
+        "conn-9H2b4JRw"
+      ]
+    },
+    {
+      "_id": "loop-m31SpB8I",
+      "attributes": {
+        "label": "R1  開發新的檢驗補助項目"
+      },
+      "connections": [
+        "conn-B2I0t7f1",
+        "conn-vTWoQII8",
+        "conn-YRrb1qEO",
+        "conn-QOvrUsZ4",
+        "conn-0SJOqdpo",
+        "conn-NM66Vziq"
+      ]
+    },
+    {
+      "_id": "loop-pS27jiK3",
+      "attributes": {
+        "label": "R1    人口增加",
+        "tags": [
+          "sfd"
+        ]
+      },
+      "connections": [
+        "conn-9H2b4JRw",
+        "conn-v3qpnzyw"
+      ]
+    },
+    {
+      "_id": "loop-sDeH9gco",
+      "attributes": {
+        "label": "R11"
+      },
+      "connections": [
+        "conn-2w4wFRYj"
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "_id": "map-AqjAk9f3",
+      "name": "Actors Network",
+      "description": "# 受訪者\n\n受訪者 | 代號\n--- | ---\n罕病基金會同仁 | A1\n罕病基金會執行長 | A2\n檢驗單位1 | B1\n檢驗單位2 | B2\n送檢單位遺傳諮詢員 | C1\n送檢醫生 | C2\n確診病友家庭 | D1\n藥廠 | E1\n病友團體 | F1\n\n# 行動者\n\n行動者 | 代號\n--- | ---\n[國內遺傳檢驗補助方案](=#S1) | S1\n[罕見疾病基金會](=#F1) | F1\n[方案承辦人](=#F2) | F2\n[基金會內遺傳諮詢員](=#F3) | F3\n[病友團體](=#F4) | F4\n[贊助者](=#F5) | F5\n[國內病友家庭](=#P1) | P1\n[病友親友](=#P2) | P2\n[送檢醫生](=#H1) | H1\n[送檢單位遺傳諮詢員](=#H2) | H2\n[檢驗單位](=#T1) | T1\n[國外學者](=#T2) | T2\n[國外病友](=#T3) | T3\n[醫學生](=#T4) | T4\n[醫療社群](=#T5) | T5\n[藥廠](=#V1) | V1\n[政府](=#G1) | G1\n[資拓宏宇](=#G2) | G2\n\n# 連結\n## 核心\n\n[F3H2](=#F3H2)\n```\nA1：可以跟醫院的其他，我們說，遺傳諮詢中心的人，甚至有些醫生，甚至這些專門在實驗室規劃這些實驗室的這些成員，醫檢師們。是有一些聯絡\n```\n```\nQ：這個三聯單，總共發到幾個單位…？\nA2：發出去嗎？就是14個遺傳諮詢中心我們都會發。\nQ：14個遺傳諮詢中心？就是主要這14個單位？\nA2：對，對…。\nQ：喔，所以送檢主要也是來自這14個遺傳諮詢中心？\nA2：主要。也有人是網站看到他自己找的。\n```\n\n[F3H1](=#F3H1)\n```\nA1：可以跟醫院的其他，我們說，遺傳諮詢中心的人，甚至有些醫生，甚至這些專門在實驗室規劃這些實驗室的這些成員，醫檢師們。是有一些聯絡\n```\n```\nA1：基金會諮詢人員都是會有一天在跟醫生的門診\n```\n```\nA2：我們今天在轉介個案給他（送檢醫生）的時候，我們希望請他多幫忙，你只能說藉由這個方案，你可能多增加我們跟這些醫事人員的互動的機會\n```\n\n[F3T1](=#F3T1)\n```\nA1：可以跟醫院的其他，我們說，遺傳諮詢中心的人，甚至有些醫生，甚至這些專門在實驗室規劃這些實驗室的這些成員，醫檢師們。是有一些聯絡送檢就是要跟檢驗單位聯絡，那有的時候比如說，像檢驗的東西，我們不了解就會再去跟檢驗單位多了解\n```\n```\nA1：送檢就是要跟檢驗單位聯絡，那有的時候比如說，像檢驗的東西，我們不了解就會再去跟檢驗單位多了解\n```\n```\nC2：我們門診那邊解釋為甚麼需要這個，然後要多少錢，然後他可以被補助多少，甚麼時候結果會出來，如果家屬同意，然後他們就會請基金會的人（基金會內遺傳諮詢師）或是門診有請他的助理，他會協助幫忙做後面的事情。就是抽血及同意書，然後上來我們會有一個負責跟那個檢驗室聯絡，然後送過去。\n```\n\n[F2P1](=#F2P1)\n```\nA1：要等個案加入我們基金會。我們才會知道說，喔，原來對，但因為其實我們都不會主動去聯繫這一些使用這個方案的個案。因為不是每個個案用的都是確診嘛，他們有的就是只是醫生覺得疑似，因為我們大部份都是疑似，才去做這項檢驗。所以我們都不會主動\n```\n\n[F3S1](=#F3S1)\n```\nA1：基金會裡面的遺傳諮詢員，就會派出去駐點，只是可能駐點就會碰到這個計劃。\n```\n\n[S1P1](=#S1P1)\n```\nQ：這個三聯單，總共發到幾個單位…？\nA2：發出去嗎？就是14個遺傳諮詢中心我們都會發。\nQ：14個遺傳諮詢中心？就是主要這14個單位？\nA2：對，對…。\nQ：喔，所以送檢主要也是來自這14個遺傳諮詢中心？\nA2：主要。也有人是網站看到他自己找的。\n```\n\n[F1H1](=#F1H1)\n```\nA2：有些醫生會跟我們說那不好用，所以就拜託我們留著一些項目，像小胖威利這些項目我們也有，他們也有，但是慢慢的我們希望不要重疊這麼多，就是慢慢要分開比較好，才會逼著你醫生去Order政府的資源，因為醫生覺得罕病基金會比較好合作。你的又不用事審，那但是我們不能一直讓這件事情發生，這樣子資源就是明明政府有，就會造成政府的資源還是沒有人用，所以後來我們就慢慢希望，只要政府補助我們基金會就不補助，然後所以我們會把力氣多留點在政府沒有做的項目。\n```\n```\nA2：我們今天在轉介個案給他（送檢醫生）的時候，我們希望請他多幫忙，你只能說藉由這個方案，你可能多增加我們跟這些醫事人員的互動的機會\n```\n```\nA2：我們有求於別人的時間，大概就是希望他們（送檢醫生）對病人好一點，我不是講假的，我是講真的。這個是什麼？溝通信任產生的便利嗎？真的有需要。他們也常拜託我們啊。他們每次都說這個病人住院，他需要自費，打電話叫我們快點補助給他。我們提供這些服務給他，然後他們協助了我們什麼。\n```\n```\nA2：我覺得這個方案，這個計畫好的就是你會去訪問他們（送檢醫生），讓我們知道他們的觀點，而不是我們在假想他…\n```\n\n[S1H1](=#S1H1)\n```\nA2：我們這個計畫就是說他有歷史的意義，他有督促政府改變的意義。他還有改變民間在Order這個test的習慣，因為大部份醫生就自掏腰包要或者就是不做。\n```\n```\nC2：方案其實很簡單，它就是一個表，然後去勾，對，所以我們就是拿來看有沒有我們要的基因，如果有，就會送。\n```\n\n[S1T1](=#S1T1)\n```\nA2：這些實驗室們很在乎這個榜單的比例。上次我們講過，就說有些實驗室很在乎他在這個申請單，在版面，無形中他把他當成一個廣告效果，這應該是我們沒有意料到的。實驗室會在乎今年有沒有上榜，然後他們提供的服務能不能藉由我們這品牌被人家看到。\n```\n\n[F1T1](=#F1T1)\n```\nA2：唯一的好處就是只有希望他們（檢驗單位）降價，例如說這個檢驗本來要３萬塊，可是因為他們他也覺得，他們想要多一些曝光，希望基金會能夠放到我們補助的項目，那我就有條件跟他bargain說，那你降一點吧！你降到2萬7我補助支出就會少，我補助支出少我預算的效益是更高的。\n```\n```\nA2：基金會的錢就這麼多，如果補助效益要增加，那我只好試圖邀請他們（檢驗單位）降價，因為他們降價多一點，我能夠排進去的項目就能多一點，那我對病人的服務就會多一點。\n```\n```\nA2：開發新的項目，平均他們要花，他們之前有說過啊！要10萬塊到20萬。只是如果說，我們有一些信任的基礎，跟我們願意在這個平台上持續揭露這個檢驗，那是不是可以確保他一直都有案量，也許我沒有辦法付10萬塊的開發費，但是我可以跟他說，至少醫生會看到你有這個項目，他們持續會送來給我們。\n```\n\n[T1V1](=#T1V1)\n```\nB1：我們現在跟藥廠也有在合作。有一些藥廠，那些都罕病啦，老實講也沒有多少，但是那就是名聲，像賽諾菲來我們這邊audit\n```\n\n[S1H2](=#S1H2)\n```\nC1：基金會的方案，讓我們省去很多資料收集程序。可以讓我們很有效率。\n```\n\n[P1H2](=#P1H2)\n```\nC1：如果病人要用基金會的補助的話。我們還是希望病人能到中心（遺傳諮詢中心）來辦理。\n```\n\n[H1H2](=#H1H2)\n```\nC1：那我們院內都會很清楚要找我們。跟醫師是保持不錯的關係。醫師你要送檢，然後我們一起合作大概。但是我們醫生如果沒有找我們。不管是院內或外院的，他處理可能也要花他很多時間。\n```\n\n[P1H1](=#P1H1)\n```\nC2：我們門診那邊解釋為甚麼需要這個，然後要多少錢，然後他可以被補助多少，甚麼時候結果會出來，如果家屬同意，然後他們就會請基金會的人（基金會內遺傳諮詢師）或是門診有請他的助理，他會協助幫忙做後面的事情。就是抽血及同意書，然後上來我們會有一個負責跟那個檢驗室聯絡，然後送過去。\n```\n\n[P1F3](=#P1F3)\n```\nC2：我們門診那邊解釋為甚麼需要這個，然後要多少錢，然後他可以被補助多少，甚麼時候結果會出來，如果家屬同意，然後他們就會請基金會的人（基金會內遺傳諮詢師）或是門診有請他的助理，他會協助幫忙做後面的事情。就是抽血及同意書，然後上來我們會有一個負責跟那個檢驗室聯絡，然後送過去。\n```\n\n[H1T1](=#H1T1)\n```\nC2：我們門診那邊解釋為甚麼需要這個，然後要多少錢，然後他可以被補助多少，甚麼時候結果會出來，如果家屬同意，然後他們就會請基金會的人（基金會內遺傳諮詢師）或是門診有請他的助理，他會協助幫忙做後面的事情。就是抽血及同意書，然後上來我們會有一個負責跟那個檢驗室聯絡，然後送過去。\n```\n\n[P1F1](=#P1F1)\n```\nD1：覺得罕見疾病真的是一個很幫助病友的一個基金會，不管是在金錢，然後一些，對心情上，還有一些金錢上，都還滿幫助的\n```\n```\nD1：因為病有時候。也常常住院。醫療補助，然後還有生活補助這樣。所以還可以cover一些生活上的支出。\n```\n```\nD1：覺得那個罕見疾病（基金會）幫助我們很大。不管從一開始的病友組的小姐，還有到現在醫療組的那個，那個小姐，都要幫助他的語言這樣，我就覺得，就一路上都有人在幫助我們這樣，不會因為他病快要好了，然後而減少這樣。就是都會後續問還有什麼需要幫助的，現在還有比較大的問題，就是語言。因為之前都不說話。然後現在就慢慢好一點，可是我們還是希望他好，然後明年可以上學這樣子。\n```\n\n[P1F4](=#P1F4)\n```\nD1：我兒子得慢性肉芽腫，然後身邊都沒有類似的案例，然後就是罕見疾病有幫我找一些，就是有相同疾病的媽媽，我們可以心情上的交流。然後我就還滿安慰的，然後後續的一些，那一直打來就是鼓勵我，然後問一下狀況。都沒有間斷過那樣。\n```\n```\nF1：病人有需求他也可以打電話給基金會，基金會會再透過我這邊然後我們再去解釋更多，然後讓那個病人能夠再加入我們這個團體。\n```\n\n[H1V1](=#H1V1)\n```\nE1：我們在第一線是推廣這個疾病治療，然後協助醫生在第一端做確診這個轉介的一個動作。\n```\n```\nE1：我們那個老闆的一個利基也是其實從醫療服務這邊介入開始。那醫療服務，為什麼我們要做醫療服務是因為這個政策對一般的醫生來講，就是罕見疾病的一個法規的規定也好，然後特殊的一些專案進口，一些這樣子的一個一些模式，其實是跟一般藥品是不一樣。它可能要很多專案申請的一些程序，那它進藥可能不能跟一般藥品比較，它可能有一些特殊的一些規定。然後包括我說最簡單的診斷。然後在後面的一個治療藥物的取得。那這跟一般的藥品都是不一樣的，所以我們這樣子的一個團隊就是做也是做一個宣導，一個橋樑讓整個路徑可以更通順，所以我們協助的除了是診斷確診，就疾病推廣、診斷確診之外，然後還有在後面的一個專案用品的藥品。我為什麼說專案用品，專案藥品，你可能不知道。因為一般的藥品可能有許可證，進口，醫院就採購這樣。可是罕見疾病藥品比較特殊是因為需要…有些是沒有許可證，有些是很緊急需要，那可能是要醫院申請，衛福部那邊核准專案進口才能特殊進來。所以這個程序上面，就我們所謂的介入做醫療服務就是說這個層層的部分就是我們可能協助醫院端，了解整個程序，協助它，然後去，才能很順利的把這個藥品進到醫院讓病人使用。\n```\n```\nE1：我們會去做疾病的推廣，但是這個時候還沒介入到檢驗的部分。只是說先讓醫師知道說譬如說年輕的一些醫師或者是有些跨科部整合的醫師能夠了解說因為這個疾病，它可能很多器官都會有症狀。那除了我們所謂的專家醫師，就是遺傳科專家醫師以外，可能有一些病人他會先到急診，會先到其他不同的科別去就醫的時候，能夠及早就是能夠知道他的症狀之後，他們去會讓醫師先去懷疑說有沒有可能是罕見疾病。那之後他們認知這個疾病之後呢，開始他們會去懷疑說當我們都找到急性腹痛，我可能要懷疑類似紫質症之類的，那他們就會去做基因的篩檢或酵素的篩檢或生化數值的篩檢，那他這時候才會介入到所謂他們講的遺傳檢驗的補助方案這一塊來。那我們就會告訴醫師說，醫院這個鑑定檢驗方法可能罕見基金會或那些單位或者說他們也有在做這樣的檢驗服務，所以你們可以怎麼樣採檢，譬如說你可以用綠頭管、紫頭管還是說採尿液檢體，然後怎麼去送到那個單位，那對方聯絡的人是誰這樣子，然後去協助他們去送檢這樣，就這一塊資訊。我們也會服務，會提醒他們說其實這樣，如果找到這個懷疑的，那你要準備什麼樣的檢體，那你怎麼樣去送到這些基金會這樣，所以會提供，這一段的時候才會產生跟這個檢驗補助相關的連結。\n```\n\n[F1V1](=#F1V1)\n```\nE1：我跟基金會這邊或是一些政策面上會跟基金會這邊比較是一個窗口，所以如果說我們第一線業務同仁或是護理師同仁有一些問題問我的話，我會可能幫他們找資源，幫他們了解之後再給他們\n```\n\n## 政府\n[H2G1](=#H2G1)\n```\nC1：我們補助還是以政府的為優先。政府我們過去之前就是會是耗時的。其實都是在看病人有沒有，願不願意全額，他如果願意全額付費。沒有差別。只是有時候幫他申請基金會的，因為政府不是每一個檢驗項目都有補助。政府的申請流程比較沒效率。通常文件送進去。幾星期到幾個月。\n```\n\n[S1G1](=#S1G1)\n```\nA1：政府有限制，政府他們要他們的認證實驗室，而且他們的認證是依項目認證，他們不是依一個單位去做認證。所以就變成說，政府的那個國內檢驗補助就要看。就要看比如說，我要做舞蹈症好了，政府有認證實驗室是做這個的啊。那我們就不會，就不會放在我們的國內遺傳檢驗項目裡面\n```\n```\nA1：我們（方案）會變動，就是我們會看，如果政府有新增。\n```\n```\nA2：我們這個計畫就是說他有歷史的意義，他有督促政府改變的意義。他還有改變民間在Order這個test的習慣，因為大部份醫生就自掏腰包要或者就是不做。\n```\n\n[H1G1](=#H1G1)\n```\nA2：醫生在下Order之後，政府那邊要先審查你下的對不對，我也可以跟你說「你不能」，就是會被打槍，所以他們還有多了一個事前審查的動作，其他就跟我們差不多，那他多了一個事審的動作，就會造成有一些醫生覺得我已經來不急了，我還要給你審查，我這病人就是很快就要等藥，我當然沒有時間再送給你然後換一個兩三個月的時間，讓你才跟我說YES or NO。然後我再來送。\n```\n```\nC2：國健署你要寫說為甚麼它需要送，還要委員去審，可能要兩個月、三個月才會回來，如果委員不同意，你還要申覆，為甚麼他還是需要，然後我可能要花這個寫英文作文的時間，就要花半個小時、一個小時、兩個小時、三個小時，變成就是說我還要去說服人家同意才能夠送這樣。而且要出公文，那個是公文系統那種\n```\n\n[F1G1](=#F1G1)\n```\nA2：他們（政府）有在我們（基金會）督促之下，就是建立快速審查的方法，因為既然他們審查是避不掉的，就是政府做事就是他沒辦法避掉審查，因為他覺得這個是事前的，就是民眾的那個所得稅所以他不能浪費錢，所以他就是一定要審查，但是政府有跟資拓有形成一個共識，就是有些疾病有些檢驗是只要經過假設他有快速檢核表，他有附這個報告，就不用送委員審查，就由資拓宏宇他們初審就可以過，所以他有建立幾個疾病是可以快速審查的。\n```\n```\nA2：有些醫生會跟我們說那不好用，所以就拜託我們留著一些項目，像小胖威利這些項目我們也有，他們也有，但是慢慢的我們希望不要重疊這麼多，就是慢慢要分開比較好，才會逼著你醫生去Order政府的資源，因為醫生覺得罕病基金會比較好合作。你的又不用事審，那但是我們不能一直讓這件事情發生，這樣子資源就是明明政府有，就會造成政府的資源還是沒有人用，所以後來我們就慢慢希望，只要政府補助我們基金會就不補助，然後所以我們會把力氣多留點在政府沒有做的項目。\n```\n\n[T1G1](=#T1G1)\n```\nA1：政府規定每間實驗室，每年只能提兩項啊。那其實對實驗室來說，負擔很大\n```\n```\nA1：政府就是，我只要兩項，你就今年提兩項出來我去審查，明年你再提兩項出來。就會變得很麻煩。其實對實驗室來說，因為我整理這些資料，就是要人力\n```\n```\nB1：我八十幾項，我每一個都要去認證，我每一個都要把所有的文件什麼東西都要，雖然我們實驗室已經一個很好的model，但是我還是要花時間去maintain，所以啊，你政府八十幾項檢驗項目，如果我要申請，我們這邊才幾個人而已，十幾個人你看你怎麼這八十幾項，一年有多少件嘛，我評估嘛，你那個項目，人沒多少人，你叫我搞這種事情，然後而且他審查又那麼多，而且很多實驗室，我有能力做，我也不想去申請，我講白的，因為為什麼，我可能申請完了以後，我跟你講，一個case都沒有，罕病啊，我一百多項檢驗項目，我裡面的項目裡面，我做了二十年，裡面有幾個項目，可能一年不到十個，不是，到現在還做不到十個，那會做的比較多的，有很多可能就是疑似，檢出率又低的。\n```\n```\nB1：寧願不要拿政府的錢，我們自己做，自己賺自己做。你不要以為拿補助的錢很好拿，我拿一個錢，他補一個個案二千塊，我跟你講，我要多少個行政成本。我要花多少時間，然後還要去追單據。浪費那個時間，我寧願把這個時間拿去做別的事情。\n```\n\n[G1G2](=#G1G2)\n```\nA2：他（政府）有Outsourcing給一個叫做資拓宏宇這個公司，他們委託了資拓宏宇已經做了很多年了。\n```\n```\nA2：他們（政府）有在我們（基金會）督促之下，就是建立快速審查的方法，因為既然他們審查是避不掉的，就是政府做事就是他沒辦法避掉審查，因為他覺得這個是事前的，就是民眾的那個所得稅所以他不能浪費錢，所以他就是一定要審查，但是政府有跟資拓有形成一個共識，就是有些疾病有些檢驗是只要經過假設他有快速檢核表，他有附這個報告，就不用送委員審查，就由資拓宏宇他們初審就可以過，所以他有建立幾個疾病是可以快速審查的。\n```\n\n[H1G2](=#H1G2)\n```\nA2：資拓他們是政府委託，他最後他是補8成，但是也有人2成付不出來的，所以資拓宏宇是只要醫生跟他們反應說，這個病人家裡很窮，2成都付不出來，那資拓宏宇就會跟我們聯絡。那我們連那2成也就幫他出。\n```\n\n[F1G2](=#F1G2)\n```\nA2：資拓他們是政府委託，他最後他是補8成，但是也有人2成付不出來的，所以資拓宏宇是只要醫生跟他們反應說，這個病人家裡很窮，2成都付不出來，那資拓宏宇就會跟我們聯絡。那我們連那2成也就幫他出。\n```\n\n## 外圍\n[P1P2](=#P1P2)\n```\nD1：確診後，就是全家都覺得，就是有點嚇到這樣。然後不知道該怎麼辦，因為確診後還沒移植，還不知道能移植。好像我覺得我公公幫助很大，因為他就還滿樂觀的。不然，我跟我先生都還滿那個負面的。他就說，要面對這樣子。不逃避。因為我們一開始好像，我老公好像不希望骨髓移植，因為網路上有一些很可怕的文章，就說。不是生就是死，好像現在也真的不是生就是死。就是很重大的手術。一開始也沒有很想做，可是，然後經過一段時間，一直看他感染。才決定要移植，然後我公公也同意移植。公公還滿支持的。公公就說，如果能根治那就去做，不然，他一輩子就是一直感染。才下定決心要做。\n```\n```\nD1：我之前有想說，要讓姐妹去驗，可是姐妹驗好像就沒有補助了，可是這樣那一筆花費還滿大的。不知道可不可以建議說，就是身邊的親友，如果也去檢驗的話，可不可以有一些補助這樣。\nA1：我說明一下，就是我們那個國內檢驗的部份，我們那個上面是限制說，一個家庭只能夠一位來做，那我知道媽媽也會想說姐妹要做，但是因為如果說，你單純看的話，姐妹是跟你是同一個家庭，那我們其實也沒有抓到那麼嚴，所以其實我們也會在看說，如果說，你的姐妹，他們自己有各自成家的話，他就以他那邊的家庭為一個計算，如果他想要用，這是另外一個變相的方法這樣子。\nD1：所以醫院都會同意嗎？如果他是，就是有家人這樣子，也會同意補助嗎？\nA1：通常他們會問我們，那我們這裡不會抓到這麼嚴格這樣子，因為我們也會看說，第一個就是這個疾病，因為你跟你的姐妹，其實算是同一個家庭出來的。所以你已經找到了變異點位，我們就會建議說，你的姐妹只要去做這個變異點位就可以了。你就不用說，像一開始整個定序去做，這個費用會便宜很多，因為以這個方案來說，我們這個定序是要九千塊，那如果說，你已經找到變異點位，用你的點位，然後請姐妹們，都做同樣一個點位的話，他們可能一個點位，對，一個點位可能就只要兩千塊，兩千到三千塊，所以其實你是可以把你的檢驗結果，提供給你的姐妹們，然後他們可以請醫生幫忙去做送檢這樣，就只要單作這個點位就可以了，不一定要同一個檢驗單位，就可以去找其他外面的檢驗單位去做這樣就可以了。\nD1：所以他們只要拿我的資料過去，然後醫生就知道要做相同的嗎？\nA1：對對對對對。\n```\n\n[F1F5](=#F1F5)\n```\nA2：東門扶輪社，因為他們裡面很多的醫生，所以他們對預防比較有概念…他們那個global的，全球的資金計畫裡面其中有一塊是預防，這些病人已經發病了，你可以早期知道早點幫他們確診，他們是願意的，所以我現在跟他們在進行一個新的計畫，因為台塑他是都是補助單一基因的，我們還是會繼續，但是因為現在有全基因定序他可能就是動輒就要10萬塊，所以那一套我就是跟他們繼續來申請\n```\n\n[F1T5](=#F1T5)\n```\nA2：知名度只有對於醫療社群可以。對社會大眾的溝通不會太有用，但是對於醫療社群的溝通力，他們是有幫助。就是多一點醫生知道這個project，然後後面把一些個案給我們。\n```\n\n[T1T2](=#T1T2)\n```\nB1：有一些就是像跟他們去演講或什麼東西，那就像大陸就有一些就feedback回來，那還有一些醫生，他們到國外去演講。他們去參加研討會，那他們就會交流，像胡醫師他們台大這邊，就是去promote台灣的醫療的一個水準，那相對他們就會問說，那我們有這些病人，他們可不可以送到台灣來服務。慢慢就是累積這樣的狀況。\n```\n```\nB2：其實國外會議，並不是去秀台灣多厲害，而是有一些資訊，有些臨床表現是我看過的病人裡，找出來那把資訊拿回來，因此，你常常去，10年、15年、而且有些人會認識你，然後交了一些朋友，那時常在國際上，有一些來來去去有一些往返，知道台灣成就是什麼。那現在帶學生們去開醫學會，那他們說哦！也有這樣子的醫學會的方式，他也可以進來，所以我想相對從個人或是到台灣的這種感覺就覺得對後輩都是很正面的\n```\n\n[T1T3](=#T1T3)\n```\nB1：我們實驗室也不只是在做國內的，十年前早就跨足到國外了，但是只是沒有做的那麼多而已。\n```\n```\nB1：有一些就是像跟他們去演講或什麼東西，那就像大陸就有一些就feedback回來，那還有一些醫生，他們到國外去演講。他們去參加研討會，那他們就會交流，像胡醫師他們台大這邊，就是去promote台灣的醫療的一個水準，那相對他們就會問說，那我們有這些病人，他們可不可以送到台灣來服務。慢慢就是累積這樣的狀況。\n```\n\n[T1T4](=#T1T4)\n```\nB2：其實國外會議，並不是去秀台灣多厲害，而是有一些資訊，有些臨床表現是我看過的病人裡，找出來那把資訊拿回來，因此，你常常去，10年、15年、而且有些人會認識你，然後交了一些朋友，那時常在國際上，有一些來來去去有一些往返，知道台灣成就是什麼。那現在帶學生們去開醫學會，那他們說哦！也有這樣子的醫學會的方式，他也可以進來，所以我想相對從個人或是到台灣的這種感覺就覺得對後輩都是很正面的\n```",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-hDp43veu",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [
+        {
+          "_id": "node-0BXEyS2A",
+          "position": {
+            "x": 343.85657813075954,
+            "y": 269.0630806086633
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-660JkRD0"
+        },
+        {
+          "_id": "node-0hfMizdD",
+          "position": {
+            "x": -401.88659256044724,
+            "y": -457.19423705962646
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-fYqZrppt"
+        },
+        {
+          "_id": "node-3rqwzKfJ",
+          "position": {
+            "x": -431.49883537222684,
+            "y": 196.81508567800034
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-W3eWX2An"
+        },
+        {
+          "_id": "node-9oTRkrk1",
+          "position": {
+            "x": 128.91025056744087,
+            "y": -151.5340465228188
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-t2YZcBFJ"
+        },
+        {
+          "_id": "node-B7jNwTgj",
+          "position": {
+            "x": -260.4889812558823,
+            "y": -458.38927309040207
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-4m5bCZCr"
+        },
+        {
+          "_id": "node-BZT67rGe",
+          "position": {
+            "x": -596.0858097287335,
+            "y": -169.50863264282114
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-iiYDES4k"
+        },
+        {
+          "_id": "node-GKvGZIyF",
+          "position": {
+            "x": -403.69872225950905,
+            "y": 113.19740962741065
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-pMudzgKn"
+        },
+        {
+          "_id": "node-MHpl37z1",
+          "position": {
+            "x": -672.5142964043026,
+            "y": -452.4873589814442
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-VB7ybgpa"
+        },
+        {
+          "_id": "node-Q0cxHkzp",
+          "position": {
+            "x": 346.2526214408671,
+            "y": -263.0866275621606
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vocQimZg"
+        },
+        {
+          "_id": "node-S1qFa223",
+          "position": {
+            "x": -524.2184816514289,
+            "y": -459.77394810084644
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-RRWB6oxl"
+        },
+        {
+          "_id": "node-Sl6UNQEr",
+          "position": {
+            "x": -675.2525555552854,
+            "y": -318.8681501584396
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WmBoihy0"
+        },
+        {
+          "_id": "node-UiKFUibl",
+          "position": {
+            "x": 157.7085275403833,
+            "y": -453.863669921827
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-1tEbezOH"
+        },
+        {
+          "_id": "node-WGqJGtjB",
+          "position": {
+            "x": 345.60563392873524,
+            "y": -466.1408573827524
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZT5ozxsk"
+        },
+        {
+          "_id": "node-ZcS7gRl4",
+          "position": {
+            "x": -674.3883541783484,
+            "y": -128.14196486296117
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-1Ah51Wwp"
+        },
+        {
+          "_id": "node-bVr5Vvva",
+          "position": {
+            "x": 115.06586328367008,
+            "y": 270.2184892314387
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-2U23kPmH"
+        },
+        {
+          "_id": "node-gbGuoF9x",
+          "position": {
+            "x": -654.6585810974073,
+            "y": 254.2776143442179
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-UXkkHWU9"
+        },
+        {
+          "_id": "node-kWXaYrGA",
+          "position": {
+            "x": 35.69034205885078,
+            "y": -291.6709298502197
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-gI9giOgb"
+        },
+        {
+          "_id": "node-tOhYDHL8",
+          "position": {
+            "x": 211.07355368356323,
+            "y": -34.784134919181554
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-E4Y0keyc"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-02qYrtOZ",
+          "curvature": -0.02180918391760506,
+          "style": {},
+          "connection": "conn-gA5fg8Zv"
+        },
+        {
+          "_id": "edge-1mQGQwD2",
+          "curvature": -0.034517496020646195,
+          "style": {},
+          "connection": "conn-IsnWBIkX"
+        },
+        {
+          "_id": "edge-265PGMUl",
+          "curvature": 0.1723468202280594,
+          "style": {},
+          "connection": "conn-H7iFR3na"
+        },
+        {
+          "_id": "edge-6HzgIVx3",
+          "curvature": -0.1371362263150832,
+          "style": {},
+          "connection": "conn-wlII0VyX"
+        },
+        {
+          "_id": "edge-6UjxY3T8",
+          "curvature": 0.07938723687489234,
+          "style": {},
+          "connection": "conn-FJ2CnlZ2"
+        },
+        {
+          "_id": "edge-7XmekNtd",
+          "curvature": 0.0023661876179244816,
+          "style": {},
+          "connection": "conn-TAHwnx4o"
+        },
+        {
+          "_id": "edge-8rGOxByu",
+          "curvature": 0.11020867241737146,
+          "style": {},
+          "connection": "conn-9dBaPN5k"
+        },
+        {
+          "_id": "edge-9vm7KQdW",
+          "curvature": -0.018983621357945606,
+          "style": {},
+          "connection": "conn-yAMaxIbs"
+        },
+        {
+          "_id": "edge-BDTb9uBc",
+          "curvature": -0.023731617321245856,
+          "style": {},
+          "connection": "conn-g0HpoUUD"
+        },
+        {
+          "_id": "edge-BKvX0QoO",
+          "curvature": 0.020785353513929326,
+          "style": {},
+          "connection": "conn-CgkMyN3r"
+        },
+        {
+          "_id": "edge-FJNCFs5O",
+          "curvature": 0.14275273715784148,
+          "style": {},
+          "connection": "conn-GrvxqDyM"
+        },
+        {
+          "_id": "edge-G58ybKQP",
+          "curvature": 0.014024341086295855,
+          "style": {},
+          "connection": "conn-LY57QSsw"
+        },
+        {
+          "_id": "edge-GBWJu8d2",
+          "curvature": -0.037577917598638426,
+          "style": {},
+          "connection": "conn-xUmoqGAl"
+        },
+        {
+          "_id": "edge-GDaUpih1",
+          "curvature": -0.06496039037814999,
+          "style": {},
+          "connection": "conn-5QSaj0mw"
+        },
+        {
+          "_id": "edge-Hk7goLja",
+          "curvature": 0.0780907799476468,
+          "style": {},
+          "connection": "conn-QpNgjlfw"
+        },
+        {
+          "_id": "edge-IbapJBrO",
+          "curvature": -0.07807766737307016,
+          "style": {},
+          "connection": "conn-HfCt8Gdg"
+        },
+        {
+          "_id": "edge-ItIVMt7z",
+          "curvature": -0.004288423334354397,
+          "style": {},
+          "connection": "conn-EIRN7RqE"
+        },
+        {
+          "_id": "edge-J1QxprHS",
+          "curvature": -0.07815662970775596,
+          "style": {},
+          "connection": "conn-SJUBWoNx"
+        },
+        {
+          "_id": "edge-KEoxuKHw",
+          "curvature": -0.10972315242361652,
+          "style": {},
+          "connection": "conn-AFkYeJNR"
+        },
+        {
+          "_id": "edge-KdRlvO53",
+          "curvature": -0.06152080679489733,
+          "style": {},
+          "connection": "conn-eEW2ojMl"
+        },
+        {
+          "_id": "edge-MJmsOSTl",
+          "curvature": 0.03216661114397611,
+          "style": {},
+          "connection": "conn-bbVhT2sf"
+        },
+        {
+          "_id": "edge-MX9Yb94J",
+          "curvature": -0.062275571082547894,
+          "style": {},
+          "connection": "conn-3CUTvN6M"
+        },
+        {
+          "_id": "edge-MiBsP2UP",
+          "curvature": 0.059938118793490064,
+          "style": {},
+          "connection": "conn-96fn3oru"
+        },
+        {
+          "_id": "edge-N6ZhVYFY",
+          "curvature": 0.06355339484071575,
+          "style": {},
+          "connection": "conn-bhGg6Xr0"
+        },
+        {
+          "_id": "edge-PZ5p5Xra",
+          "curvature": 0.06004831085080373,
+          "style": {},
+          "connection": "conn-Vb6qtU2x"
+        },
+        {
+          "_id": "edge-Rro4xR2x",
+          "curvature": 0.14269229976117623,
+          "style": {},
+          "connection": "conn-AAA5Zoyh"
+        },
+        {
+          "_id": "edge-SihIOfJD",
+          "curvature": 0.07127954290461837,
+          "style": {},
+          "connection": "conn-iWYe2DdB"
+        },
+        {
+          "_id": "edge-TXq6EXHj",
+          "curvature": 0.08131070205039335,
+          "style": {},
+          "connection": "conn-y0gKdMfk"
+        },
+        {
+          "_id": "edge-V0rZ2w8x",
+          "curvature": -0.04646938226048953,
+          "style": {},
+          "connection": "conn-3jN6SpMc"
+        },
+        {
+          "_id": "edge-VKnygJa0",
+          "curvature": -0.09473076261707039,
+          "style": {},
+          "connection": "conn-3MwzK8ay"
+        },
+        {
+          "_id": "edge-ZwXvBIFN",
+          "curvature": -0.02899845921976213,
+          "style": {},
+          "connection": "conn-PQy3sVWA"
+        },
+        {
+          "_id": "edge-cjw6SG90",
+          "curvature": 0.012984237255417853,
+          "style": {},
+          "connection": "conn-KB5j4QBi"
+        },
+        {
+          "_id": "edge-eTXHVMD3",
+          "curvature": 0.016583529025840735,
+          "style": {},
+          "connection": "conn-2EdDjlc1"
+        },
+        {
+          "_id": "edge-f7zamB82",
+          "curvature": 0.010571146206526476,
+          "style": {},
+          "connection": "conn-yY606Hn2"
+        },
+        {
+          "_id": "edge-gWQ0hScV",
+          "curvature": 0.05356368757170714,
+          "style": {},
+          "connection": "conn-IKsWA31U"
+        },
+        {
+          "_id": "edge-i4eA8t7y",
+          "curvature": -0.027547605871867203,
+          "style": {},
+          "connection": "conn-nLDdUdG1"
+        },
+        {
+          "_id": "edge-jlXueYKh",
+          "curvature": 0.05348528274491293,
+          "style": {},
+          "connection": "conn-oo40yAEX"
+        },
+        {
+          "_id": "edge-pGGEmHoY",
+          "curvature": 0.03633527638617778,
+          "style": {},
+          "connection": "conn-jdwUSZMf"
+        },
+        {
+          "_id": "edge-tvgUBNyX",
+          "curvature": -0.015232740598330406,
+          "style": {},
+          "connection": "conn-OEX10PCz"
+        },
+        {
+          "_id": "edge-yVKwlF9Q",
+          "curvature": 0.0034107905841127325,
+          "style": {},
+          "connection": "conn-F6mT9Cq8"
+        }
+      ],
+      "loops": []
+    },
+    {
+      "_id": "map-2s4sGu60",
+      "name": "Obligatory Passage Point",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-5cdJH6A0",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-38EscPC7",
+          "position": {
+            "x": 873.6830391530199,
+            "y": 38.95099217294215
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-q4A9B8ca"
+        },
+        {
+          "_id": "node-3Q5BbTft",
+          "position": {
+            "x": -131.40463096450884,
+            "y": -76.67110624274909
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Rj8eZDhJ"
+        },
+        {
+          "_id": "node-74AwTsLe",
+          "position": {
+            "x": 731.8092874091898,
+            "y": 174.21943578334074
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-cCQoFtjy"
+        },
+        {
+          "_id": "node-8YFfmbYg",
+          "position": {
+            "x": 505.4327888758933,
+            "y": -192.72788000354683
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-dnc7TLFn"
+        },
+        {
+          "_id": "node-AWR1Nnik",
+          "position": {
+            "x": -138.0332885287126,
+            "y": -194.84063983026573
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-lKGuVI74"
+        },
+        {
+          "_id": "node-CNgqdVtu",
+          "position": {
+            "x": 201.2535943314165,
+            "y": 56.12874308341536
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xfxlQJav"
+        },
+        {
+          "_id": "node-Fe7mIHuo",
+          "position": {
+            "x": 617.946928440245,
+            "y": 174.21943578334074
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-oTY4WpjG"
+        },
+        {
+          "_id": "node-IRxslgn2",
+          "position": {
+            "x": 318.28937789614207,
+            "y": -70.30860597269317
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-IMRLi2eG"
+        },
+        {
+          "_id": "node-ImZNROBC",
+          "position": {
+            "x": 623.6880025852323,
+            "y": 41.08702115542363
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-gF1Mq63s"
+        },
+        {
+          "_id": "node-J7bYFKQg",
+          "position": {
+            "x": 99.61142082861137,
+            "y": -72.70861259209914
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-6iVPk6Nd"
+        },
+        {
+          "_id": "node-Mivw8LYb",
+          "position": {
+            "x": -134.71895974661072,
+            "y": 54.698728819480806
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-3Si7TJoI"
+        },
+        {
+          "_id": "node-OLxoKGmy",
+          "position": {
+            "x": 318.82544871779226,
+            "y": -191.55373120185126
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WmBoihy0"
+        },
+        {
+          "_id": "node-PVR4JHjL",
+          "position": {
+            "x": 319.0930264969289,
+            "y": 55.407180884997125
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-APuIEOk7"
+        },
+        {
+          "_id": "node-SaP8Wz8w",
+          "position": {
+            "x": -21.874042340990957,
+            "y": -76.61991450247766
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-JMSBKEhI"
+        },
+        {
+          "_id": "node-VTzJa1rZ",
+          "position": {
+            "x": -21.188371123093006,
+            "y": -194.3165430928563
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-2U23kPmH"
+        },
+        {
+          "_id": "node-VptXNm90",
+          "position": {
+            "x": 199.11224588248393,
+            "y": -68.9267631967126
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-hxDN2ENb"
+        },
+        {
+          "_id": "node-WLZkC99I",
+          "position": {
+            "x": 98.07914056382272,
+            "y": -193.39894738688608
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-M1FXTiDl"
+        },
+        {
+          "_id": "node-Yjv4XjjM",
+          "position": {
+            "x": 931.0181582429512,
+            "y": -192.41935619256506
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-kK43uGkW"
+        },
+        {
+          "_id": "node-aEncYvYG",
+          "position": {
+            "x": -18.874042340991156,
+            "y": 57.56424934185414
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7mnIB1WV"
+        },
+        {
+          "_id": "node-b2Hu7hOv",
+          "position": {
+            "x": 203.8394095582023,
+            "y": -190.37931790604932
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZrggPGPC"
+        },
+        {
+          "_id": "node-eBT3GqWd",
+          "position": {
+            "x": 513.1381678057661,
+            "y": 175.6751130143751
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-aGe64MQm"
+        },
+        {
+          "_id": "node-eQRlSTWE",
+          "position": {
+            "x": 625.1260336390491,
+            "y": -194.0919076640886
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-YvdtHv0U"
+        },
+        {
+          "_id": "node-fRyGEldT",
+          "position": {
+            "x": 732.4996120484157,
+            "y": -194.81758492576517
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-4RdZIDEn"
+        },
+        {
+          "_id": "node-gZEOdu7r",
+          "position": {
+            "x": 828.0708655678446,
+            "y": 171.48137124486635
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-pCi3PQYr"
+        },
+        {
+          "_id": "node-hI0zg9YT",
+          "position": {
+            "x": 817.9983404146342,
+            "y": -194.4775451296009
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-L0V3HqBi"
+        },
+        {
+          "_id": "node-lW0JZm9p",
+          "position": {
+            "x": 203.0553922842988,
+            "y": 171.08200401816708
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vveLOUBK"
+        },
+        {
+          "_id": "node-mMgaCdvh",
+          "position": {
+            "x": 198.4519653049213,
+            "y": -192.02631830732807
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GrsIpeqB"
+        },
+        {
+          "_id": "node-nUfbQxla",
+          "position": {
+            "x": 100.25419880308314,
+            "y": 54.77037272999024
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-2fat5WwW"
+        },
+        {
+          "_id": "node-qpSnCcBP",
+          "position": {
+            "x": 947.4363985126688,
+            "y": 171.4813712448664
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7upWnj85"
+        },
+        {
+          "_id": "node-rkOBVL7L",
+          "position": {
+            "x": 320.5083288374995,
+            "y": 171.087157154139
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-8pOIwJsg"
+        },
+        {
+          "_id": "node-rlpdIkLM",
+          "position": {
+            "x": 409.2294110698496,
+            "y": -191.80493717246534
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-zBHOxHXB"
+        },
+        {
+          "_id": "node-sXrUkZmq",
+          "position": {
+            "x": 198.8394095582023,
+            "y": 54.62068209395068
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-umjBpmfT"
+        },
+        {
+          "_id": "node-xo4Ue6tJ",
+          "position": {
+            "x": 415.11914141407544,
+            "y": 175.46426598304592
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ep6OH28E"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-05pkjXU5",
+          "curvature": 0.04320954373827907,
+          "style": {},
+          "connection": "conn-UCnWivl4"
+        },
+        {
+          "_id": "edge-0Sw5Z3pv",
+          "curvature": -0.015319079499124323,
+          "style": {},
+          "connection": "conn-Tp6buCPU"
+        },
+        {
+          "_id": "edge-0ldARr3v",
+          "curvature": 0.05965288887306326,
+          "style": {},
+          "connection": "conn-dE3h5h0q"
+        },
+        {
+          "_id": "edge-20qzyyDI",
+          "curvature": 0.009921971706260961,
+          "style": {},
+          "connection": "conn-MQTb3AMT"
+        },
+        {
+          "_id": "edge-5Ngt5Jxb",
+          "curvature": 0.061042984769333945,
+          "style": {},
+          "connection": "conn-0Uscz4LB"
+        },
+        {
+          "_id": "edge-5wclaDGx",
+          "curvature": -0.047942700396220686,
+          "style": {},
+          "connection": "conn-E0Vl0O9a"
+        },
+        {
+          "_id": "edge-6oB18r1r",
+          "curvature": -0.0011195402638655176,
+          "style": {},
+          "connection": "conn-hXBrFnEb"
+        },
+        {
+          "_id": "edge-7WNfOrrz",
+          "curvature": 0.08257422129284564,
+          "style": {},
+          "connection": "conn-nVN0Iytb"
+        },
+        {
+          "_id": "edge-9YXk5lmm",
+          "curvature": 0.029897438118811976,
+          "style": {},
+          "connection": "conn-JXAlP82H"
+        },
+        {
+          "_id": "edge-AB932Ko3",
+          "curvature": -0.004522194454361267,
+          "style": {},
+          "connection": "conn-zrvApwb1"
+        },
+        {
+          "_id": "edge-BNoPpuj0",
+          "curvature": 0.07243583154912676,
+          "style": {},
+          "connection": "conn-X5n6Thh7"
+        },
+        {
+          "_id": "edge-BlI9t98B",
+          "curvature": 0.06969751430398742,
+          "style": {},
+          "connection": "conn-wYZ7Bzv8"
+        },
+        {
+          "_id": "edge-C9MxC8wk",
+          "curvature": 0.057240099009901076,
+          "style": {},
+          "connection": "conn-0CtBg0sc"
+        },
+        {
+          "_id": "edge-ECyoYxhq",
+          "curvature": -0.0793877822401065,
+          "style": {},
+          "connection": "conn-q7TgU0Sl"
+        },
+        {
+          "_id": "edge-FEokE7QW",
+          "curvature": -0.09539873546544318,
+          "style": {},
+          "connection": "conn-FDtdf320"
+        },
+        {
+          "_id": "edge-H4UyQCWz",
+          "curvature": -0.03759396574780329,
+          "style": {},
+          "connection": "conn-xLFZeO0x"
+        },
+        {
+          "_id": "edge-HtvXuKAJ",
+          "curvature": -0.046864236597694,
+          "style": {},
+          "connection": "conn-Jd6Wf5t4"
+        },
+        {
+          "_id": "edge-IBMiPxJp",
+          "curvature": 0.044272719268318314,
+          "style": {},
+          "connection": "conn-C9hXZBMj"
+        },
+        {
+          "_id": "edge-KdPphVwv",
+          "curvature": 0.0609665427509293,
+          "style": {},
+          "connection": "conn-1Xy9RycG"
+        },
+        {
+          "_id": "edge-Kqf9VLdD",
+          "curvature": 0.05742791690495307,
+          "style": {},
+          "connection": "conn-VwpfTO1p"
+        },
+        {
+          "_id": "edge-L3mWshTH",
+          "curvature": -0.03999137984114273,
+          "style": {},
+          "connection": "conn-9nV3Lxbs"
+        },
+        {
+          "_id": "edge-Terjq6lQ",
+          "curvature": 0.06281995834630018,
+          "style": {},
+          "connection": "conn-77aEzJjc"
+        },
+        {
+          "_id": "edge-V4TwElJi",
+          "curvature": 0.03465741892647335,
+          "style": {},
+          "connection": "conn-s2gb42tq"
+        },
+        {
+          "_id": "edge-a7oaohGL",
+          "curvature": -0.047736856598421556,
+          "style": {},
+          "connection": "conn-Bt2Pz4rG"
+        },
+        {
+          "_id": "edge-aijHa0hV",
+          "curvature": 0.01221880495935646,
+          "style": {},
+          "connection": "conn-PXcAX047"
+        },
+        {
+          "_id": "edge-amTmWkt0",
+          "curvature": 0.06062847587212903,
+          "style": {},
+          "connection": "conn-Qjd3JXdL"
+        },
+        {
+          "_id": "edge-eaWyTZ8J",
+          "curvature": -0.030017317683278876,
+          "style": {},
+          "connection": "conn-Iq6uk8Y6"
+        },
+        {
+          "_id": "edge-fpB19ixD",
+          "curvature": 0.02814255214320903,
+          "style": {},
+          "connection": "conn-pFDtTNZG"
+        },
+        {
+          "_id": "edge-hR8swTZJ",
+          "curvature": 0.05294137719238387,
+          "style": {},
+          "connection": "conn-VNCmiRNZ"
+        },
+        {
+          "_id": "edge-hTLcfHx5",
+          "curvature": 0.05188620183185448,
+          "style": {},
+          "connection": "conn-qZZQLsQb"
+        },
+        {
+          "_id": "edge-inK4zV9h",
+          "curvature": 0.04782346369731417,
+          "style": {},
+          "connection": "conn-QbIs1QsX"
+        },
+        {
+          "_id": "edge-jgkpJC6u",
+          "curvature": 0.040476516826479146,
+          "style": {},
+          "connection": "conn-s9GTG7ze"
+        },
+        {
+          "_id": "edge-nlaSkJi7",
+          "curvature": -0.01641143285705623,
+          "style": {},
+          "connection": "conn-IiU1tFeW"
+        },
+        {
+          "_id": "edge-quom7zcW",
+          "curvature": 0.07626740054779724,
+          "style": {},
+          "connection": "conn-b6yD3pBm"
+        },
+        {
+          "_id": "edge-r0XxHSJ3",
+          "curvature": 0.057349220868142245,
+          "style": {},
+          "connection": "conn-Rj4szReH"
+        },
+        {
+          "_id": "edge-r19pcBZf",
+          "curvature": 0.02462729749491739,
+          "style": {},
+          "connection": "conn-USTbqkIj"
+        },
+        {
+          "_id": "edge-sQlqNbzG",
+          "curvature": -0.057361923503816636,
+          "style": {},
+          "connection": "conn-M0LIdvmJ"
+        },
+        {
+          "_id": "edge-y3rDZ08b",
+          "curvature": 0.03848200743296587,
+          "style": {},
+          "connection": "conn-qXd4nmGm"
+        },
+        {
+          "_id": "edge-ysbOGExA",
+          "curvature": 0.029394610987985546,
+          "style": {},
+          "connection": "conn-oyu6F3QX"
+        }
+      ],
+      "loops": []
+    },
+    {
+      "_id": "map-TngiuF0N",
+      "name": "System Map",
+      "description": "# 受訪者\n\n受訪者 | 代號\n--- | ---\n罕病基金會同仁 | A1\n罕病基金會執行長 | A2\n檢驗單位1 | B1\n檢驗單位2 | B2\n送檢單位遺傳諮詢員 | C1\n送檢醫生 | C2\n確診病友家庭 | D1\n藥廠 | E1\n病友團體 | F1\n\n# 系統圖\n\n## [A2-1](=.a2-1)\n```\nQ：增加的名聲，帶來的好處是什麼？\nB2：喔，那沒什麼好處，就是他會轉介更多的病人給我們，或者是他就知道這個方案好用，那以後就多Order這樣子，只要有病人來，他就會多Order…。\nQ：對。因為這個概念上面，跟一般的那個聲譽就是名聲，因為有的…。\nB2：就帶來生意就對了啦？沒有什麼帶來生意…。\nQ：對，因為概念不一樣。\nB2：我們沒有什麼帶來生意，我們是花更多的補助。他們就知道這個地方很好申請錢的，我們多轉介一些個案，讓個案可以得到更多的補助。\n```\n\n## [A2-2](=.a2-2)\n```\nB2：現在我們還在做啊，所以我們沒有停止啊，沒有因為他開始接手就沒做，我們就去做他不做的疾病啊！比較常見的我們就丟給他啦！那我們去開發其他罕見的。\nQ：那政府在合作的部份是逐年的增加，還是他只是從一個換到另外一個。\nB2：有，他一開始好像公布的30幾個，現在已經到80幾個。項目他也會逐年增加。\nQ：那金額也有增加嗎？\nB2：金額他們就固定80％的比例。\nQ：80％。我是說他總補助的金額…。\nB2：有。但是好像沒有到我們有200萬這麼多，他現在一年花很少錢，因為申請的人很少，因為他事前審查我們不用。所以變成說他抄過去抄一半而已，就是他模擬我們這個方案的流程，我們前置於已經把整個規模建置好，例如說臨床醫生先開單子需要，然後是屬於部份補助，然後後送的實驗室有哪些，那申請的人跟後送的人怎麼傳遞這些檢體，那是我們建立的嘛，然後報告再發回醫生這裡嘛，那他們就是也學這套系統，那他們學一半，就是學了就是說醫生在下Order之後，政府那邊要先審查你下的對不對，我也可以跟你說「你不能」，就是會被打槍，所以他們還有多了一個事前審查的動作，其他就跟我們差不多，那他多了一個事審的動作，就會造成有一些醫生覺得我已經來不急了，我還要給你審查，我這病人就是很快就要等藥，我當然沒有時間再送給你然後換一個兩三個月的時間，讓你才跟我說YES or NO。然後我再來送。\n```\n\n## [A2-3](=.a2-3)\n```\nA2：對我們的影響當然有，我會覺得這些項目的增減，會跟我每年budget配置有關係啊！就是我只有300萬，或者200萬那我就要決定，那些是我們基金會以病人為出發的priority。\nQ：我想到的一個，你聽聽看…現在就是看起來這些檢驗單位算是有點有求於你們的感覺嗎？因為資源在你們手上…那你們有因為跟他們這些檢驗單位使得上力所以讓基金會得到一些好處？\nA2：了解。唯一的好處就是只有希望他們降價，例如說這個檢驗本來要３萬塊，可是因為他們他也覺得，他們想要多一些曝光，希望基金會能夠放到我們補助的項目，那我就有條件跟他bargain說，那你降一點吧！你降到2萬7我補助支出就會少，我補助支出少我預算的效益是更高的。\n```\n\n## [A2-4](=.a2-4)\n```\nA2：基金會的錢就這麼多，如果補助效益要增加，那我只好試圖邀請他們降價，因為他們降價多一點，我能夠排進去的項目就能多一點，那我對病人的服務就會多一點。\n```\n\n## [A2-5](=.a2-5)\n```\nA2：基金會的資源是公眾的資源，如果這些實驗室願意以折損一點點他們利益，然後我們可以服務更多人，然後他們也願意在這個基礎之下，來幫助更多的人，因為你越便宜，你當然就是病人支出的就少…。然後這些資源就可以挪動當時的項目，所以我們出發點是基於公益的合作。他們也願意配合，那我們就會可以把資源再擴大。\n```\n\n## [A2-6](=.a2-6)\n```\nA2：開發新的項目，平均他們要花，他們之前有說過啊！要10萬塊到20萬。只是如果說，我們有一些信任的基礎，跟我們願意在這個平台上持續揭露這個檢驗，那是不是可以確保他一直都有案量，也許我沒有辦法付10萬塊的開發費，但是我可以跟他說，至少醫生會看到你有這個項目，他們持續會送來給我們。\n```\n\n## [A2-7](=.a2-7)\n```\nA2：知名度只有對於醫療社群可以。對社會大眾的溝通不會太有用，但是對於醫療社群的溝通力，他們是有幫助。就是多一點醫生知道這個project，然後後面把一些個案給我們。\n```\n\n## [B1-1](=.b1-1)\n```\nB1：還有技術的累積。技術的開發。他們donate我一些錢，其實算是他也幫我們繳一點學費啦，講白的啦，就剛好我們可以不用花太多的成本，可能就又再建制一個新的技術，那又feedback回去給新的病人嘛。那你可以得到更穩定的一些檢驗的品質，從透過跟他們的合作，其實也讓我們的名聲很重要。像我們實驗室也不只是在做國內的，十年前早就跨足到國外了，但是只是沒有做的那麼多而已。\n```\n```\nE1：如果變成說有補助，那就變成檢驗機構它比較願意說我長期的支持這個專案，因為我有一部分有補助一部份我自己投入的費用或人力可以打平的開發成本的話，他們願意就是把這個項目做補助轉…就是把這個檢驗項目永續性的留在那個他們的機構，所以會才會…就會後端的檢驗就會如此比較順暢這樣子。\n```\n\n## [B1-2](=.b1-2)\n```\nB1：以東南亞為主，東南亞跟大陸。東南亞跟大陸比較多。有一些就是像跟他們去演講或什麼東西，那就像大陸就有一些就feedback回來，那還有一些醫生，他們到國外去演講。他們去參加研討會，那他們就會交流，像胡醫師他們台大這邊，就是去promote台灣的醫療的一個水準，那相對他們就會問說，那我們有這些病人，他們可不可以送到台灣來服務。慢慢就是累積這樣的狀況。\n```\n\n## [B1-3](=.b1-3)\n```\nQ：假如沒有這些名聲，沒有這些經驗的累積，這些新的技術，那會變成什麼狀況。實驗室會損失什麼東西?\nB1：就會停滯不前啊。不進則退。\nQ：意思是說，如果沒有我們罕病這一塊的話，實驗室會有什麼損失嗎？沒有做罕病這一塊。\nB1：我覺得真的不會進步，你就會跟一般的檢驗所一樣，然後毛利就會越來越低，講白的就是不進則退。\nQ：毛利會越來越低。\nB1：你的時間空間會越縮啊，因為你等於就是你門檻一直沒有拉高啊，你實驗室沒有創造出特色，你的niche，當你這個行業，譬如說，我們現在做一個檢驗項目。這個檢驗項目非常賺錢。然後我就只有這個檢驗項目，可是當大家看到你賺錢的時候，他可能就有第二家，第三家投入，然後就開始跟你殺價競爭，然後就變成本來是藍海一片，只有你一個人做的，然後現在全部都外面周遭都在開了，那你可能你的case變少，或是你的利潤，就是你會被殺價，你為了維持你那個經濟規模，你會被殺價，這是一樣的道理。那就會像我們現在很多檢驗所，我們現在很多醫事檢驗所，他們做的生化檢驗，就是這種狀況，因為他們就是只要能買機器，只要開門，你就是找業務去跑業務，然後去拉客戶，那他拉客戶的話，就只有一條路，就是殺價，因為大家都一樣，都有一樣的設備，一樣的試劑，然後一樣的認證，那你就，你就沒有意義了。\n```\n\n## [B1-4](=.b1-4)\n```\nB1：試劑耗材成本，是跟著你的量，會去增加減少的，而且你的量增加的時候，其實你的試劑耗材成本，單價成本可以降低，因為你可以去議價\n```\n\n## [B1-5](=.b1-5)\n```\nB1：寧願先怎麼樣，看到影就開槍(台)，那這樣子的話，也協助醫生累積他們經驗，因為醫生，其實常常他們只是在臨床上面，只是去看，但是透過基因檢測的話，他可以累積很多，就像我們跟台大，其實這十幾二十年來，胡醫師也是透過這些基因檢驗，他的經驗才累積到那麼豐富啊，因為他看到了那麼多病人嘛，然後很多病人確診了，因為基因確診了，他可以透過這個病人，這個就是學習嘛，你就可以知道這個的關連性，然後他這樣的累積出來，所以為什麼，像我常常跟他講，那麼多醫學中心，某某幾家醫學中心，命中率就是高，為什麼？那些醫生就是經驗多嘛。那有些年輕，可是你也不能怪那些年輕醫生，你不給他學，他怎麼那個。第一線的醫師很重要\n```\n\n## [B1-6](=.b1-6)\n```\nB1：像我們做這種罕見疾病，大部份，都是為了預防，大部份都會做產前診斷，所以我們這邊其實也是另外一個用意啦，那這些人就會說，會來直接找柯教授，做產檢。或是把檢體送到我們實驗室來做產檢，因為很多病，很多遺傳疾病，都是拉出來就一串粽子啊。然後每個都要確診\n```\n\n## [E1-1](=.e1-1)\n```\nE1：對醫院來說，如果它能夠找到這個病人，他其實背後代表說他家族，他的家族或者是他的親戚裡面可能有同樣的困擾，只是以前可能沒有被確診。所以在那一關，醫院就可以進而去研究譬如說這個遺傳疾病，它可能背後by哪些基因，那這個基因到底牽連多廣，譬如說在台灣那麼多兩千三百萬人中，到底這些家族分佈在哪裡，甚至有沒有牽連的關係還是歷史，有一些他們去做歷史追溯的研究，它影響到譬如說是荷蘭人基因、日本人的基因還是中國人的基因還是平埔族的基因，這是針對一些有些他們會衍生的那些科學的或醫學相關的學術研究。那再過來是說，我們可以去做一些疾病更深的認識，然後可以去做一線發表，然後才更了解這個疾病該怎麼照顧，或是甚至說有些那基因很好玩，它診斷出來，但是它未必會致病，它不一定會有生病，所以那是好的基因突變。那他們也會盡力去做研究，就是一知道說，因為這樣的，這個全部普查經過這個篩檢之後，會讓他們了解說到底台灣有多少真正帶有這個基因的帶因者，carrier，帶因者，或是說真正會發病的病友，可以去做一個流行病史的分析，知道說到底還有多少這樣的患者這樣子。\n```\n\n## [E1-2](=.e1-2)\n```\nE1：從一個比較大方向來講，譬如說針對疾病的研究，假如說，因為疾病的檢驗普及，所以病人被找出來。我說的是國外的原廠，因為大藥廠在評估行銷策略的他們會考量說到底要我…全世界有多少這樣的病人。那所以如果能夠台灣有一個的流行病學的資料，就是對他們來講，不只它在歐美，因為他們看的是全世界，就是美國，假設說你這個病有多少發病人數，如果總人數達到它認為符合所謂的市場經濟規模的時候，它會同意研發，對，甚至在…因為像歐美，他們有…甚至是美國跟歐洲都有孤兒藥的特別的保護法案。它會鼓勵藥廠研發可以做研發的經費的投資抵減，所以會讓國外的原廠很…尤其是美國，特別會投入罕見疾病新藥的開發。譬如像現在最新的一些基因療法就是因為這樣產生的。它開始知道注意到這疾病沒有藥，然後就會，但是有辦法確診，確診之後，它發現病人數非常的龐大，或者是有的它會選擇比較小眾的，要看藥廠的研發策略，有的會選擇比較多人數的。有的會選擇說真的是真的沒有藥品可以治療，完全沒有希望的，但是病人數一樣很少的，它們也會去做小眾、小眾的開發。\n```\n\n## [推論](=.infer)\n代號 | 說明\n--- | ---\n[I1](=.i1) | 檢驗案數越多，試劑耗材用量越大，採購量越大\n[I2](=.i2) | 醫師判定患者疑似罕病符合條件即可申請方案送檢\n[I3](=.i3) | 方案補助的檢驗項目越多，檢驗單位越有機會列入方案名單\n[I4](=.i4) | 命中率越高，非罕病卻送檢申請方案的比例越低\n[I5](=.i5) | 基金會服務的病友越多，支出就會越多\n[I6](=.i6) | 醫師判定確診者的親友疑似罕病符合條件即可申請方案送檢\n[I7](=.i7) | 毛利 = 收入 - 成本\n[I8](=.i8) | 申請方案的人數越多，送檢人數越多，越有可能發現確診者\n[I9](=.i9) | 申請政府補助者也是送檢者，送檢人數越多，越有可能發現確診者\n[I10](=.i10) | 接案越多，收入越多\n[I11](=.i11) | 開價越高，收入越高\n[I12](=.i12) | 毛利 = 收入 - 成本\n[I13](=.i13) | 確診之後就能加入基金會\n[I14](=.i14) | 政府補助的檢驗項目越多，能申請的人數就越多\n[I15](=.i15) | 根據英國報告，比較其他民眾，罕病患者確診前平均多花費英國政府7000英鎊\n[I16](=.i16) | 確診之後就不是未確診者\n[I17](=.i17) | 申請政府補助的人數越多，政府補助越多，支出越多\n[I18](=.i18) | 如果政府將節省的支出挹注基金會\n[I19](=.i19) | 如果政府將節省的支出挹注方案\n[I20](=.i20) | 如果政府將節省的支出挹注政府的檢驗補助",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-Jv8pKNNc",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-0IvQTNGl",
+          "position": {
+            "x": 38.19864062348226,
+            "y": -437.1031848479812
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-1cN92die"
+        },
+        {
+          "_id": "node-15ZVPhTX",
+          "position": {
+            "x": 1192.331577497124,
+            "y": 45.70872199912479
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-TLI3Ki34"
+        },
+        {
+          "_id": "node-2zc5I03g",
+          "position": {
+            "x": 1100.671043457092,
+            "y": 42.53898901914076
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-bheE27ef"
+        },
+        {
+          "_id": "node-60axhvAh",
+          "position": {
+            "x": -409.6721946332288,
+            "y": 357.9009483737108
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xeI6rhkL"
+        },
+        {
+          "_id": "node-6Fj2JzCy",
+          "position": {
+            "x": -364.8505236620708,
+            "y": 491.37116950657156
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-aWNs2opq"
+        },
+        {
+          "_id": "node-6JarZSVX",
+          "position": {
+            "x": 649.2851685661617,
+            "y": -263.68173828623196
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ssCwDZGr"
+        },
+        {
+          "_id": "node-7fqvyqIu",
+          "position": {
+            "x": -846.0162609541478,
+            "y": 155.58229635708523
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-qpqQ29Mi"
+        },
+        {
+          "_id": "node-8hW07VPv",
+          "position": {
+            "x": -265.9102571370371,
+            "y": 179.27829376370642
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-sJ57CveD"
+        },
+        {
+          "_id": "node-8tLpFsbM",
+          "position": {
+            "x": 1115.218124765102,
+            "y": 172.85664374756016
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ALowFbPy"
+        },
+        {
+          "_id": "node-9bwG9BB6",
+          "position": {
+            "x": -101.11059172368118,
+            "y": -146.24799953903695
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-iHfwRlxk"
+        },
+        {
+          "_id": "node-AlAQI5uw",
+          "position": {
+            "x": 209.1499493367605,
+            "y": -117.44399109999159
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WUYyIg38"
+        },
+        {
+          "_id": "node-BPy3kUEW",
+          "position": {
+            "x": 140.95102138450454,
+            "y": 497.05686687874874
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-N0tffAc7"
+        },
+        {
+          "_id": "node-BTEF8jpe",
+          "position": {
+            "x": 844.8792031246933,
+            "y": -439.282482307086
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZzOeqfB1"
+        },
+        {
+          "_id": "node-CSRIJokw",
+          "position": {
+            "x": 489.26969968215514,
+            "y": -153.9750597918573
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Xy26p2jh"
+        },
+        {
+          "_id": "node-Dx17nNch",
+          "position": {
+            "x": 1066.3988326562717,
+            "y": -250.71122911745846
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-f5u4Jy7y"
+        },
+        {
+          "_id": "node-Fbtxlb03",
+          "position": {
+            "x": -227.35144131673144,
+            "y": -435.81084999255955
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ejcKdmTm"
+        },
+        {
+          "_id": "node-GCm3HDqB",
+          "position": {
+            "x": 504.45498436176615,
+            "y": 516.2706924575807
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-epeXt4TC"
+        },
+        {
+          "_id": "node-HlusB6H1",
+          "position": {
+            "x": 826.3916198230598,
+            "y": 434.5314642853174
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-k35RrZDz"
+        },
+        {
+          "_id": "node-IV5coVIn",
+          "position": {
+            "x": 388.82629894336026,
+            "y": 118.2065541012581
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-rtGnohud"
+        },
+        {
+          "_id": "node-Iv6MLUPA",
+          "position": {
+            "x": -258.35411833241005,
+            "y": 491.37116950657156
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ayjusQuQ"
+        },
+        {
+          "_id": "node-JjdKWhJs",
+          "position": {
+            "x": -873.6682964570306,
+            "y": -143.75356734456594
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WVERmDux"
+        },
+        {
+          "_id": "node-KbBg8ZzA",
+          "position": {
+            "x": -689.285548381483,
+            "y": -155.4175991478109
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-gV7nxYeo"
+        },
+        {
+          "_id": "node-LAcIR91A",
+          "position": {
+            "x": -856.2618752625568,
+            "y": -352.79137172529244
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-0yfv5OBU"
+        },
+        {
+          "_id": "node-M2wnkiSW",
+          "position": {
+            "x": -364.42243061164913,
+            "y": -434.6666255254211
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-MXCW09k0"
+        },
+        {
+          "_id": "node-NCeXb26C",
+          "position": {
+            "x": 639.1434466372358,
+            "y": 40.19952305917265
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-TkWfRObP"
+        },
+        {
+          "_id": "node-P7dlMrcO",
+          "position": {
+            "x": 151.55151258024247,
+            "y": 181.79660617300647
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-y1y8VLJb"
+        },
+        {
+          "_id": "node-SdgZ03Ab",
+          "position": {
+            "x": -58.390821527084725,
+            "y": 493.6116938996457
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-OxMJNrsk"
+        },
+        {
+          "_id": "node-TBALB3VC",
+          "position": {
+            "x": -367.9102571370371,
+            "y": 179.27829376370642
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-qxqiv7EG"
+        },
+        {
+          "_id": "node-UEHwiyuX",
+          "position": {
+            "x": -731.4040237581569,
+            "y": 14.072335525746794
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-6Qe5Fymv"
+        },
+        {
+          "_id": "node-VV2pP5Py",
+          "position": {
+            "x": -522.2195103633877,
+            "y": -513.5560158951065
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ICsPmR7A"
+        },
+        {
+          "_id": "node-VnjCljYU",
+          "position": {
+            "x": 555.3925758909501,
+            "y": 333.66260982643394
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-R4mgkTbi"
+        },
+        {
+          "_id": "node-VoCDSUDy",
+          "position": {
+            "x": 532.2605521554909,
+            "y": -438.33708905565175
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZyQenVD7"
+        },
+        {
+          "_id": "node-WmXrdD9o",
+          "position": {
+            "x": 397.4990287629709,
+            "y": 288.1692266765346
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-jca7Mbmn"
+        },
+        {
+          "_id": "node-Y77Gv4NI",
+          "position": {
+            "x": 417.2887046421839,
+            "y": -303.7762096512373
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-3esE6VJY"
+        },
+        {
+          "_id": "node-Ynx5evkV",
+          "position": {
+            "x": 1098.2288626565255,
+            "y": 373.07150107518885
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-0Pc2KSoh"
+        },
+        {
+          "_id": "node-YozU3WQb",
+          "position": {
+            "x": 255.10059358993686,
+            "y": 494.4326565053464
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-9RwhnvbD"
+        },
+        {
+          "_id": "node-aobZBMWK",
+          "position": {
+            "x": 295.9568312204501,
+            "y": -439.01788828330166
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xieCFCUX"
+        },
+        {
+          "_id": "node-cNE6RIla",
+          "position": {
+            "x": -547.1868854294523,
+            "y": 33.99550622713596
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-PBtR7MHK"
+        },
+        {
+          "_id": "node-cXzIsu8y",
+          "position": {
+            "x": -61.402696444216105,
+            "y": 178.47788077425662
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-nvxR1uEb"
+        },
+        {
+          "_id": "node-dgR9ZxFD",
+          "position": {
+            "x": -740.0010023119547,
+            "y": -236.7137466908299
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-thsefXxJ"
+        },
+        {
+          "_id": "node-e1g83Z7c",
+          "position": {
+            "x": -268.00486516561176,
+            "y": -536.6450895978138
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vwUWDkky"
+        },
+        {
+          "_id": "node-e30qP3Rb",
+          "position": {
+            "x": -393.9636961777714,
+            "y": -347.02819762875
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-MYmLrXVz"
+        },
+        {
+          "_id": "node-eIvlwzqV",
+          "position": {
+            "x": -1094.6155446181642,
+            "y": 287.7832174236786
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-R15zR7YA"
+        },
+        {
+          "_id": "node-esHBdWnO",
+          "position": {
+            "x": -1101.8358836363525,
+            "y": -526.551991003168
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-UtGkRDpg"
+        },
+        {
+          "_id": "node-f3ksLsj5",
+          "position": {
+            "x": -1400.0163247067453,
+            "y": -341.5790159850046
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-A8fsNhc8"
+        },
+        {
+          "_id": "node-gtxhIEBY",
+          "position": {
+            "x": -59.255775022763046,
+            "y": 349.2536492696942
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-eySWGfKT"
+        },
+        {
+          "_id": "node-h8eTYFVh",
+          "position": {
+            "x": 921.3569695171399,
+            "y": 40.869256039156696
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vTSbSvb5"
+        },
+        {
+          "_id": "node-jDysrYS6",
+          "position": {
+            "x": -67.90694169883913,
+            "y": -28.43038041314911
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-VlJiMK9d"
+        },
+        {
+          "_id": "node-jFnK01Ls",
+          "position": {
+            "x": -931.1851117654942,
+            "y": -268.9315238908488
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-0QwZZ6mw"
+        },
+        {
+          "_id": "node-ld0N1QwD",
+          "position": {
+            "x": -584.6881908600839,
+            "y": -343.60003272671514
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-QkzjH20b"
+        },
+        {
+          "_id": "node-lnC2htdh",
+          "position": {
+            "x": 912.1534210923278,
+            "y": 183.09237891873542
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-M7E5SI61"
+        },
+        {
+          "_id": "node-oBSxgYbs",
+          "position": {
+            "x": 736.16184451714,
+            "y": 40.369256039156696
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-vhMw8eCe"
+        },
+        {
+          "_id": "node-oHbCm9Yk",
+          "position": {
+            "x": 9.056933368091515,
+            "y": -284.6852138197417
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Ztog9jkE"
+        },
+        {
+          "_id": "node-qv0w8TmA",
+          "position": {
+            "x": -437.8675903245644,
+            "y": -241.14844978487844
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-bE6bIth6"
+        },
+        {
+          "_id": "node-uRhKkG8O",
+          "position": {
+            "x": 520.7573423419623,
+            "y": 34.072401076815304
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-PxhyEewe"
+        },
+        {
+          "_id": "node-w2JLbJEu",
+          "position": {
+            "x": -674.0895745536017,
+            "y": -613.6390646693527
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-jsma4P39"
+        },
+        {
+          "_id": "node-w9e1Vq1O",
+          "position": {
+            "x": -937.4332163265294,
+            "y": -496.9846226340807
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZNyrzuqe"
+        },
+        {
+          "_id": "node-wpfG3kXx",
+          "position": {
+            "x": 825.7318039438578,
+            "y": 281.5457433364154
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-DalNNleC"
+        },
+        {
+          "_id": "node-yK7YrWLc",
+          "position": {
+            "x": 272.0897428629629,
+            "y": 179.77829376370642
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Uz210dA6"
+        },
+        {
+          "_id": "node-zBDOWkO3",
+          "position": {
+            "x": -1232.7319672649116,
+            "y": -276.52247997076375
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-OHbX2OOo"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-1S4ORpQo",
+          "curvature": -0.1685226748382592,
+          "style": {},
+          "connection": "conn-XHRWocoi"
+        },
+        {
+          "_id": "edge-1foZsjg0",
+          "style": {},
+          "connection": "conn-Cq8flZWM"
+        },
+        {
+          "_id": "edge-1ibFG9sc",
+          "style": {},
+          "connection": "conn-TgVIj9PW"
+        },
+        {
+          "_id": "edge-3o6jSo7B",
+          "style": {},
+          "connection": "conn-dRoByqPL"
+        },
+        {
+          "_id": "edge-4MLV0UQo",
+          "style": {},
+          "connection": "conn-dl428Hqs"
+        },
+        {
+          "_id": "edge-6FkDfa5R",
+          "style": {},
+          "connection": "conn-0SJOqdpo"
+        },
+        {
+          "_id": "edge-6TXxapRp",
+          "curvature": -0.18309286362225768,
+          "style": {},
+          "connection": "conn-YvFiPFGq"
+        },
+        {
+          "_id": "edge-6qyFB0SA",
+          "style": {},
+          "connection": "conn-ZdJWLgPd"
+        },
+        {
+          "_id": "edge-8Y3Hdaqe",
+          "style": {},
+          "connection": "conn-UBsyDr5r"
+        },
+        {
+          "_id": "edge-9TupCwin",
+          "curvature": -0.44250341580248753,
+          "style": {},
+          "connection": "conn-s2e0Cjmc"
+        },
+        {
+          "_id": "edge-9kssSfGk",
+          "curvature": -0.20399888919743855,
+          "style": {},
+          "connection": "conn-1vi5ZOGN"
+        },
+        {
+          "_id": "edge-A71DsBS1",
+          "curvature": 0.15307283059321578,
+          "style": {},
+          "connection": "conn-ehguI2lj"
+        },
+        {
+          "_id": "edge-A8UdDr1B",
+          "curvature": -0.3468254839884962,
+          "style": {},
+          "connection": "conn-7douYWKB"
+        },
+        {
+          "_id": "edge-B5SpXjMx",
+          "curvature": -0.3182351496888826,
+          "style": {},
+          "connection": "conn-QOvrUsZ4"
+        },
+        {
+          "_id": "edge-D2AreNQH",
+          "style": {},
+          "connection": "conn-AJHHR4MT"
+        },
+        {
+          "_id": "edge-EGi2M1H3",
+          "curvature": -0.18343460457074034,
+          "style": {},
+          "connection": "conn-EIl2Qqtw"
+        },
+        {
+          "_id": "edge-EJklSZBZ",
+          "curvature": -0.32977704180917217,
+          "style": {},
+          "connection": "conn-77pcIZYN"
+        },
+        {
+          "_id": "edge-EbccYQ0i",
+          "curvature": 0.1518664777274522,
+          "style": {},
+          "connection": "conn-pvd7CbGo"
+        },
+        {
+          "_id": "edge-Ete7j6Z3",
+          "style": {},
+          "connection": "conn-FKCAu6Xq"
+        },
+        {
+          "_id": "edge-F4W4o1cR",
+          "curvature": 0.25046154847637175,
+          "style": {},
+          "connection": "conn-BtE75uoz"
+        },
+        {
+          "_id": "edge-FAicqOEN",
+          "curvature": -0.0026080176020338358,
+          "style": {},
+          "connection": "conn-awrQSJNc"
+        },
+        {
+          "_id": "edge-FErp0vAj",
+          "curvature": -0.1519297979164181,
+          "style": {},
+          "connection": "conn-4tWDOoBi"
+        },
+        {
+          "_id": "edge-FHwSud3C",
+          "style": {},
+          "connection": "conn-bIN4Hzw3"
+        },
+        {
+          "_id": "edge-FQfU0tIu",
+          "style": {},
+          "connection": "conn-LnV82oDK"
+        },
+        {
+          "_id": "edge-HoiknCNg",
+          "style": {},
+          "connection": "conn-0rVWiNxy"
+        },
+        {
+          "_id": "edge-LASeiun0",
+          "style": {},
+          "connection": "conn-p75DiAgN"
+        },
+        {
+          "_id": "edge-MwHnJUwq",
+          "curvature": 0.19643675968674798,
+          "style": {},
+          "connection": "conn-CvNIYQMv"
+        },
+        {
+          "_id": "edge-NYC5SG0r",
+          "curvature": -0.013608272756325295,
+          "style": {},
+          "connection": "conn-vTWoQII8"
+        },
+        {
+          "_id": "edge-OgS0jcxd",
+          "curvature": -0.2199650278122142,
+          "style": {},
+          "connection": "conn-RNBnEc4s"
+        },
+        {
+          "_id": "edge-OlZPdlJb",
+          "curvature": -0.3304810575918912,
+          "style": {},
+          "connection": "conn-EzqS9p3o"
+        },
+        {
+          "_id": "edge-QFGwa9LO",
+          "curvature": -0.008130100066763075,
+          "style": {},
+          "connection": "conn-7g0dDw1j"
+        },
+        {
+          "_id": "edge-QXHQqPQG",
+          "style": {},
+          "connection": "conn-JYlYcNDW"
+        },
+        {
+          "_id": "edge-QnLEcnoh",
+          "style": {},
+          "connection": "conn-A4TxseL7"
+        },
+        {
+          "_id": "edge-RLFIX02n",
+          "curvature": -0.4938583342579203,
+          "style": {},
+          "connection": "conn-m0mr4Bk9"
+        },
+        {
+          "_id": "edge-S4zRHH9m",
+          "curvature": -0.17715694967667844,
+          "style": {},
+          "connection": "conn-cZARfDL6"
+        },
+        {
+          "_id": "edge-TEEx9VdW",
+          "style": {},
+          "connection": "conn-IzmZcxmM"
+        },
+        {
+          "_id": "edge-Tb2BCWCA",
+          "curvature": 0.12218047710874419,
+          "style": {},
+          "connection": "conn-1g8cbwPI"
+        },
+        {
+          "_id": "edge-TzW7U7Vo",
+          "curvature": -0.11049089206131613,
+          "style": {},
+          "connection": "conn-2G1XSZNo"
+        },
+        {
+          "_id": "edge-UoBmKTaR",
+          "style": {},
+          "connection": "conn-g23J7RMv"
+        },
+        {
+          "_id": "edge-Veb7ctrX",
+          "curvature": 0.13716320140484822,
+          "style": {},
+          "connection": "conn-uIPhSvfj"
+        },
+        {
+          "_id": "edge-ViwFl9j7",
+          "style": {},
+          "connection": "conn-QhgVGMTv"
+        },
+        {
+          "_id": "edge-WoA83XC4",
+          "style": {},
+          "connection": "conn-VGXNW8W4"
+        },
+        {
+          "_id": "edge-XS5bNmjD",
+          "style": {},
+          "connection": "conn-lNhgryES"
+        },
+        {
+          "_id": "edge-YOerPg3m",
+          "curvature": 0.12038984419013218,
+          "style": {},
+          "connection": "conn-YdORm2BD"
+        },
+        {
+          "_id": "edge-YPUmozDi",
+          "style": {},
+          "connection": "conn-QXdBeVPn"
+        },
+        {
+          "_id": "edge-YqhAQbF1",
+          "curvature": -0.21933619135385538,
+          "style": {},
+          "connection": "conn-gnbWhGPM"
+        },
+        {
+          "_id": "edge-ZKkaJplo",
+          "curvature": 0.11306767118114401,
+          "style": {},
+          "connection": "conn-Bw1Dxs7A"
+        },
+        {
+          "_id": "edge-anFnDJJy",
+          "curvature": 0.2878392241619993,
+          "style": {},
+          "connection": "conn-VNIDmvs5"
+        },
+        {
+          "_id": "edge-b1mRENDk",
+          "curvature": 0.6591104759545235,
+          "style": {},
+          "connection": "conn-cDfpiWXu"
+        },
+        {
+          "_id": "edge-bwWpftiF",
+          "curvature": -0.5232364811213033,
+          "style": {},
+          "connection": "conn-fh4wVsSK"
+        },
+        {
+          "_id": "edge-cQvcGONJ",
+          "curvature": -0.16647545295922583,
+          "style": {},
+          "connection": "conn-sPL4Zd1B"
+        },
+        {
+          "_id": "edge-cUKatQzU",
+          "curvature": -0.1516127130485888,
+          "style": {},
+          "connection": "conn-QYPWzz27"
+        },
+        {
+          "_id": "edge-d6dbzyRJ",
+          "curvature": -0.5379998604532086,
+          "style": {},
+          "connection": "conn-7ucTnjlu"
+        },
+        {
+          "_id": "edge-dyKn3ygq",
+          "curvature": -0.5793235239229282,
+          "style": {},
+          "connection": "conn-0hvuk6AO"
+        },
+        {
+          "_id": "edge-ejNVL5L3",
+          "curvature": 0.2198846076323787,
+          "style": {},
+          "connection": "conn-gkawBMmC"
+        },
+        {
+          "_id": "edge-fFwzfYyG",
+          "curvature": -0.13952826121135778,
+          "style": {},
+          "connection": "conn-l68gtof5"
+        },
+        {
+          "_id": "edge-idBiYBqr",
+          "curvature": -0.3434765729485675,
+          "style": {},
+          "connection": "conn-LrCE7NSN"
+        },
+        {
+          "_id": "edge-jcs6v2MD",
+          "curvature": 0.20996960599724485,
+          "style": {},
+          "connection": "conn-NM66Vziq"
+        },
+        {
+          "_id": "edge-jiEJMPWu",
+          "curvature": 0.1970430904851576,
+          "style": {},
+          "connection": "conn-MhfSrPWw"
+        },
+        {
+          "_id": "edge-jufUq7T8",
+          "style": {},
+          "connection": "conn-Vd6Rg58J"
+        },
+        {
+          "_id": "edge-l9YZ7CGH",
+          "style": {},
+          "connection": "conn-epgwgwmB"
+        },
+        {
+          "_id": "edge-mIb2kC4p",
+          "curvature": -0.17993014923739106,
+          "style": {},
+          "connection": "conn-aVg2QdK1"
+        },
+        {
+          "_id": "edge-nKySo3o2",
+          "curvature": 0.2068729288066817,
+          "style": {},
+          "connection": "conn-Z6AfTnRr"
+        },
+        {
+          "_id": "edge-ncwA99th",
+          "curvature": 0.04540204969214793,
+          "style": {},
+          "connection": "conn-HtQPNPSN"
+        },
+        {
+          "_id": "edge-oucfIyRT",
+          "curvature": -0.30527144001492507,
+          "style": {},
+          "connection": "conn-SsEIVlXu"
+        },
+        {
+          "_id": "edge-pzKuB3Wm",
+          "style": {},
+          "connection": "conn-tXdKhiqj"
+        },
+        {
+          "_id": "edge-qCQVZxRQ",
+          "curvature": -0.27329838071558066,
+          "style": {},
+          "connection": "conn-Pi6TAI5W"
+        },
+        {
+          "_id": "edge-qnT0RlPt",
+          "curvature": -0.18978375707472317,
+          "style": {},
+          "connection": "conn-1TAmIgTW"
+        },
+        {
+          "_id": "edge-rGfpwZ5G",
+          "curvature": 0.18736852032205817,
+          "style": {},
+          "connection": "conn-a4tbFcm8"
+        },
+        {
+          "_id": "edge-rQ1xtAPc",
+          "curvature": 0.18818158209395772,
+          "style": {},
+          "connection": "conn-B2I0t7f1"
+        },
+        {
+          "_id": "edge-s0VcWpxY",
+          "curvature": 0.11476249450511185,
+          "style": {},
+          "connection": "conn-5ibN07Xl"
+        },
+        {
+          "_id": "edge-sf27oEGJ",
+          "curvature": 0.18089304572839332,
+          "style": {},
+          "connection": "conn-8K7QI2Q8"
+        },
+        {
+          "_id": "edge-slVTgGuV",
+          "curvature": 0.2049148463179741,
+          "style": {},
+          "connection": "conn-AjlxyjJO"
+        },
+        {
+          "_id": "edge-spo0u5Ot",
+          "curvature": 0.3234952382602621,
+          "style": {},
+          "connection": "conn-7nUKPGja"
+        },
+        {
+          "_id": "edge-tEwBLt3G",
+          "style": {},
+          "connection": "conn-DBmtHb3q"
+        },
+        {
+          "_id": "edge-v8di1pRB",
+          "style": {},
+          "connection": "conn-L56qKclF"
+        },
+        {
+          "_id": "edge-vXYYqJ0X",
+          "curvature": 0.13089136135229085,
+          "style": {},
+          "connection": "conn-qcKJXHk1"
+        },
+        {
+          "_id": "edge-x8dQE3Sz",
+          "curvature": -0.19365102509907178,
+          "style": {},
+          "connection": "conn-mV9UDtpx"
+        }
+      ],
+      "loops": []
+    },
+    {
+      "_id": "map-yrkaYozG",
+      "name": "System Map Introduction",
+      "description": "# 系統圖說明\n\n## [因果環路圖](=.cld)\n\n## [增強環路與調節環路](=.loops)\n\n## [存量-流量圖](=.sfd)",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-OBcxS9wp",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-5s8uOa4S",
+          "position": {
+            "x": 10.853195003697522,
+            "y": -3.1909068991465688
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-JnrX90uP"
+        },
+        {
+          "_id": "node-8EuZjzd3",
+          "position": {
+            "x": 85.01486962625931,
+            "y": -521.8630536221532
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-KJivkVYb"
+        },
+        {
+          "_id": "node-BECK6926",
+          "position": {
+            "x": -186.13421977008025,
+            "y": -277.4401070923234
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-JbSWGeY9"
+        },
+        {
+          "_id": "node-DQVo9Mir",
+          "position": {
+            "x": -275.6198771809619,
+            "y": -339.90595276859847
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-KGFTBU8u"
+        },
+        {
+          "_id": "node-H0wHz8Bh",
+          "position": {
+            "x": 178.86578022991975,
+            "y": -286.4401070923234
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-gO68roLM"
+        },
+        {
+          "_id": "node-N8Qi5i9y",
+          "position": {
+            "x": -13.959937489863947,
+            "y": -629.0855460657376
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-poDqIIrr"
+        },
+        {
+          "_id": "node-SCA9bZjS",
+          "position": {
+            "x": 282.4388697404091,
+            "y": -343.138875606736
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Zxz4Bfgp"
+        },
+        {
+          "_id": "node-UGb4F8tJ",
+          "position": {
+            "x": -117.74595771785813,
+            "y": -528.1003374231256
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-xieCFCUX"
+        },
+        {
+          "_id": "node-bkjonkyA",
+          "position": {
+            "x": 0.5174283963868949,
+            "y": -283.08081696781386
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-XL0jAX1Z"
+        },
+        {
+          "_id": "node-dCLTSpcy",
+          "position": {
+            "x": -310.7525884064113,
+            "y": -107.47883543825313
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-zhmOKqHL"
+        },
+        {
+          "_id": "node-gErDkoKh",
+          "position": {
+            "x": -207.99806125395787,
+            "y": -4.19690394131821
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-UzZ5FdWc"
+        },
+        {
+          "_id": "node-gjKUx6Ui",
+          "position": {
+            "x": -334.5758932409991,
+            "y": -4.344579464589387
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-JSvnuIR1"
+        },
+        {
+          "_id": "node-hE2UDl8P",
+          "position": {
+            "x": 314.47416411789754,
+            "y": -95.26070797087756
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WFc2xODx"
+        },
+        {
+          "_id": "node-lV1uqclu",
+          "position": {
+            "x": 219.04447776283382,
+            "y": -5.987775574204807
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7pTm09rp"
+        },
+        {
+          "_id": "node-wpN9M1Z3",
+          "position": {
+            "x": 340.1544660835767,
+            "y": -5.964189500214152
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-SlY9YGKh"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-18F5c1Hi",
+          "curvature": 0.7708812753131197,
+          "style": {},
+          "connection": "conn-kXvXi2rc"
+        },
+        {
+          "_id": "edge-6I1da6x8",
+          "curvature": 0.05921996425398748,
+          "style": {},
+          "connection": "conn-v3qpnzyw"
+        },
+        {
+          "_id": "edge-CT50TU8t",
+          "curvature": 0.7930356357037106,
+          "style": {},
+          "connection": "conn-1HFxUtLl"
+        },
+        {
+          "_id": "edge-H5JGyTt0",
+          "curvature": 0.3714504954480106,
+          "style": {},
+          "connection": "conn-mYUHD8j4"
+        },
+        {
+          "_id": "edge-SnUpyrG9",
+          "curvature": -1.0403962096331454,
+          "style": {},
+          "connection": "conn-9H2b4JRw"
+        },
+        {
+          "_id": "edge-TBHgevqz",
+          "curvature": 1.0697832184325382,
+          "style": {},
+          "connection": "conn-I09e2ow4"
+        },
+        {
+          "_id": "edge-UqNMT3Yr",
+          "curvature": -0.025748962113664925,
+          "style": {},
+          "connection": "conn-RFx3K1Ij"
+        },
+        {
+          "_id": "edge-ZsziEg7D",
+          "curvature": 0.03217019068620968,
+          "style": {},
+          "connection": "conn-7VoK30F1"
+        },
+        {
+          "_id": "edge-dMd1aPqD",
+          "curvature": -0.8823019359808236,
+          "style": {},
+          "connection": "conn-2w4wFRYj"
+        },
+        {
+          "_id": "edge-fFHaakC0",
+          "curvature": 0.8769726955288395,
+          "style": {},
+          "connection": "conn-DbnNOQPh"
+        },
+        {
+          "_id": "edge-gN33teqU",
+          "curvature": 0.3525246989870628,
+          "style": {},
+          "connection": "conn-cceUXmUI"
+        },
+        {
+          "_id": "edge-gXpyeS8D",
+          "curvature": -0.7367395277564172,
+          "style": {},
+          "connection": "conn-HRGEuK04"
+        },
+        {
+          "_id": "edge-iz6aDuU2",
+          "curvature": 0.015908268546646936,
+          "style": {},
+          "connection": "conn-vNWSbBu7"
+        },
+        {
+          "_id": "edge-k92jY1O8",
+          "curvature": 0.023549122049470843,
+          "style": {},
+          "connection": "conn-tdGlx7mO"
+        },
+        {
+          "_id": "edge-zY9qtJK3",
+          "curvature": 0.0676613381535624,
+          "style": {},
+          "connection": "conn-DOsQg7dH"
+        }
+      ],
+      "loops": [
+        {
+          "_id": "labl-3A9youBJ",
+          "position": {
+            "x": -91.78873181963121,
+            "y": -306.02480304589466
+          },
+          "pinned": true,
+          "style": {},
+          "loop": "loop-P26lNPp1"
+        },
+        {
+          "_id": "labl-LEhCQqze",
+          "position": {
+            "x": 89.58627526186189,
+            "y": -309.4039555193639
+          },
+          "pinned": true,
+          "style": {},
+          "loop": "loop-LG29Qxd0"
+        },
+        {
+          "_id": "labl-M9A1f6HE",
+          "position": {
+            "x": -108.64558822874962,
+            "y": -101.83080596172411
+          },
+          "pinned": true,
+          "style": {},
+          "loop": "loop-pS27jiK3"
+        },
+        {
+          "_id": "labl-fM3AOOFe",
+          "position": {
+            "x": 120.01558458345141,
+            "y": -101.55898127052696
+          },
+          "pinned": true,
+          "style": {},
+          "loop": "loop-aVNrmSmG"
+        }
+      ]
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-hDp43veu",
+      "name": "Actors Network view",
+      "style": "@controls {\n  mode: normal;\n  toolbar: click;\n\n  top {\n    title {\n      value: \"台灣罕見疾病基金會國內遺傳檢驗補助行動者網絡圖\";\n    }\n\n    filter {\n      font-size: 15;\n      font-weight: 700;\n      as: label;\n      default: show-all;\n      multiple: true;\n      placeholder: \"Layer Menu\";\n\n      option {\n        label: \"全圖\";\n        selector: *;\n      }\n\n      option {\n        label: \"核心\";\n        selector: [\"tags\"*=\"core\"], connection;\n      }\n\n      option {\n        label: \"政府\";\n        selector: [\"tags\"*=\"gov\"], connection;\n      }\n\n      option {\n        label: \"外圍\";\n        selector: [\"tags\"*=\"ext\"], connection;\n      }\n    }\n  }\n}\n\n@settings {\n  template: stock-and-flow;\n}\n\n[\"Element Type\"=\"actor gta\"] {\n  color: gold;\n}\n\n[\"Element Type\"=\"actor tfrd\"] {\n  color: skyblue;\n}\n\n[\"Element Type\"=\"actor hospital\"] {\n  color: lightgreen;\n}\n\n[\"Element Type\"=\"actor patient\"] {\n  color: pink;\n}\n\n[\"Element Type\"=\"actor lab\"] {\n  color: wheat;\n}\n\n[\"Element Type\"=\"actor vendor\"] {\n  color: lightcyan;\n}\n\n[\"Element Type\"=\"actor gov\"] {\n  color: lightgrey;\n}\n\n"
+    },
+    {
+      "_id": "pers-5cdJH6A0",
+      "name": "Obligatory Passage Point view",
+      "style": "@controls {\n  mode: normal;\n  toolbar: click;\n\n  top {\n    title {\n      value: \"台灣罕見疾病基金會國內遺傳檢驗補助必經點（OPP）\";\n    }\n\n    filter {\n      font-size: 15;\n      font-weight: 700;\n      as: label;\n      default: show-all;\n      multiple: true;\n      placeholder: \"Layer Menu\";\n\n      option {\n        label: \"全圖\";\n        selector: [\"tags\"=\"opp\"], connection;\n      }\n\n      option {\n        label: \"OPP1\";\n        selector: [\"tags\"=\"opp1\"], connection;\n      }\n\n      option {\n        label: \"OPP2\";\n        selector: [\"tags\"=\"opp2\"], connection;\n      }\n    }\n  }\n}\n\n@settings {\n  template: stock-and-flow;\n}\n\nconnection[\"connection type\"=\"\"] {\n  color: #606060;\n}\n\nconnection[\"connection type\"=\"Flow\"] {\n  color: #000000;\n}\n\nconnection[\"connection type\"=\"+\"] {\n  color: #606060;\n}\n\nconnection[\"connection type\"=\"-\"] {\n  color: #606060;\n}\n\nconnection[\"connection type\"=\"dot\"] {\n  color: #606060;\n  style: dashed;\n}\n\n"
+    },
+    {
+      "_id": "pers-OBcxS9wp",
+      "name": "System Map Introduction View",
+      "style": "@controls {\n  mode: normal;\n  toolbar: click;\n\n  top {\n    title {\n      value: \"系統圖說明\";\n    }\n\n    filter {\n      font-size: 15;\n      font-weight: 700;\n      as: label;\n      default: show-all;\n      multiple: true;\n      placeholder: \"Layer Menu\";\n\n      option {\n        label: \"全部\";\n        selector: *;\n      }\n\n      option {\n        label: \"因果環路圖\";\n        selector: [\"tags\"*=\"cld\"], connection;\n      }\n\n      option {\n        label: \"增強環路與調節環路\";\n        selector: [\"tags\"*=\"loops\"], connection;\n      }\n\n      option {\n        label: \"存量-流量圖\";\n        selector: [\"tags\"*=\"sfd\"], connection;\n      }\n    }\n  }\n}\n\n@settings {\n  template: stock-and-flow;\n}\n\nconnection[\"connection type\"=\"\"] {\n  color: #606060;\n}\n\nconnection[\"connection type\"=\"Flow\"] {\n  color: #000000;\n}\n\nconnection[\"connection type\"=\"+\"] {\n  color: #606060;\n}\n\nconnection[\"connection type\"=\"-\"] {\n  color: #606060;\n}\n\n"
+    },
+    {
+      "_id": "pers-Jv8pKNNc",
+      "name": "System Map View",
+      "style": "@controls {\n  mode: normal;\n  toolbar: click;\n\n  top {\n    title {\n      value: \"系統圖\";\n    }\n\n    filter {\n      font-size: 15;\n      font-weight: 700;\n      as: label;\n      default: show-all;\n      multiple: true;\n      placeholder: \"Layer Menu\";\n\n      option {\n        label: \"全部\";\n        selector: *;\n      }\n\n      option {\n        label: \"因果環路圖\";\n        selector: [\"tags\"*=\"cld\"], connection;\n      }\n\n      option {\n        label: \"增強環路與調節環路\";\n        selector: [\"tags\"*=\"loops\"], connection;\n      }\n\n      option {\n        label: \"存量-流量圖\";\n        selector: [\"tags\"*=\"sfd\"], connection;\n      }\n    }\n  }\n}\n\n@settings {\n  template: stock-and-flow;\n}\n\nconnection[\"connection type\"=\"\"] {\n  color: #808080;\n  font-color: #0000ff;\n  font-weight: bold;\n}\n\nconnection[\"connection type\"=\"Flow\"] {\n  color: #808080;\n  font-color: #0000ff;\n  font-weight: bold;\n}\n\nconnection[\"connection type\"=\"+\"] {\n  color: #808080;\n  font-color: #0000ff;\n  font-weight: bold;\n}\n\nconnection[\"connection type\"=\"-\"] {\n  color: #808080;\n  font-color: #0000ff;\n  font-weight: bold;\n}\n\n"
+    }
+  ]
+}
