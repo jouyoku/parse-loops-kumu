@@ -130,15 +130,15 @@ for(let i=0;i<final2.length;i++) {
     let node = nodes[j];
     let tie = node + "-" + nodes[(j + 1) % nodes.length];
     if(!tagNode.hasOwnProperty(node)) {
-      tagNode[node] = 'lp' + (i+1);
+      tagNode[node] = 'lps' + (i+1);
     } else {
-      tagNode[node] = tagNode[node] +' | lp' + (i+1);
+      tagNode[node] = tagNode[node] +' | lps' + (i+1);
     }
 
     if(!tagTie.hasOwnProperty(tie)) {
-      tagTie[tie] = 'lp' + (i+1);
+      tagTie[tie] = 'lps' + (i+1);
     } else {
-      tagTie[tie] = tagTie[tie] +' | lp' + (i+1);
+      tagTie[tie] = tagTie[tie] +' | lps' + (i+1);
     }
   }
 }
